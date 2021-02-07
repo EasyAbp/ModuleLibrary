@@ -1,0 +1,35 @@
+{
+	"groups": [{
+		"id": "EasyAbp.LoggingManagement",
+		"org": "EasyAbp",
+		"repo": "https://github.com/EasyAbp/LoggingManagement",
+		"category": "Infrastructure",
+		"desc": "An abp application module to help you query and manage your application logs.",
+		"tags": ["Infrastructure", "Logging"],
+		"modules": [{
+			"id": "Application",
+			"targets": ["a"],
+			"checked": true
+		}, {
+			"id": "Application.Contracts",
+			"targets": ["c"],
+			"checked": true
+		}, {
+			"id": "HttpApi",
+			"targets": ["h"],
+			"checked": true
+		}, {
+			"id": "HttpApi.Client",
+			"targets": ["l"],
+			"checked": true
+		}, {
+			"id": "Web",
+			"targets": ["w"],
+			"checked": true
+		}, {
+			"id": "Provider.TencentCloudCls",
+			"targets": ["a"],
+			"checked": true
+		}]
+	}]
+}
