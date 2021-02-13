@@ -38,7 +38,654 @@
             "l"
           ],
           "checked": true
+        },{
+  "groups": [
+    {
+      "id": "EasyAbp.LoggingManagement",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/LoggingManagement",
+      "category": "Infrastructure",
+      "desc": "An abp application module to help you query and manage your application logs.",
+      "tags": [
+        "Infrastructure",
+        "Logging"
+      ],
+      "modules": [
+        {
+          "id": "Application",
+          "targets": [
+            "a"
+          ],
+          "checked": true
         },
+        {
+          "id": "Application.Contracts",
+          "targets": [
+            "c"
+          ],
+          "checked": true
+        },
+        {
+          "id": "HttpApi",
+          "targets": [
+            "h"
+          ],
+          "checked": true
+        },
+        {
+          "id": "HttpApi.Client",
+          "targets": [
+            "l"
+          ],
+          "checked": true
+        },
+        {
+          "id": "Web",
+          "targets": [
+            "w"
+          ],
+          "checked": true
+        },
+        {
+          "id": "Provider.TencentCloudCls",
+          "targets": [
+            "a"
+          ],
+          "checked": false
+        }
+      ]
+    },
+    {
+      "id": "EasyAbp.EShop",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/EShop",
+      "category": "Business",
+      "desc": "An abp application module group that provides basic e-shop service.",
+      "tags": [
+        "Business",
+        "Sale"
+      ],
+      "modules": [
+        {
+          "id": "Application",
+          "targets": [
+            "a"
+          ],
+          "checked": true
+        },
+        {
+          "id": "Application.Contracts",
+          "targets": [
+            "c"
+          ],
+          "checked": true
+        },
+        {
+          "id": "Domain",
+          "targets": [
+            "o"
+          ],
+          "checked": true
+        },
+        {
+          "id": "Domain.Shared",
+          "targets": [
+            "s"
+          ],
+          "checked": true
+        },
+        {
+          "id": "EntityFrameworkCore",
+          "targets": [
+            "e"
+          ],
+          "checked": true
+        },
+        {
+          "id": "HttpApi",
+          "targets": [
+            "h"
+          ],
+          "checked": true
+        },
+        {
+          "id": "HttpApi.Client",
+          "targets": [
+            "l"
+          ],
+          "checked": true
+        },
+        {
+          "id": "MongoDB",
+          "targets": [
+            "m"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Web",
+          "targets": [
+            "w"
+          ],
+          "checked": true
+        },
+        {
+          "id": "Orders.Application",
+          "submodule": "Orders",
+          "targets": [
+            "a"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Orders.Application.Contracts",
+          "submodule": "Orders",
+          "targets": [
+            "c"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Orders.Domain",
+          "submodule": "Orders",
+          "targets": [
+            "o"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Orders.Domain.Shared",
+          "submodule": "Orders",
+          "targets": [
+            "s"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Orders.EntityFrameworkCore",
+          "submodule": "Orders",
+          "targets": [
+            "e"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Orders.HttpApi",
+          "submodule": "Orders",
+          "targets": [
+            "h"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Orders.HttpApi.Client",
+          "submodule": "Orders",
+          "targets": [
+            "l"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Orders.MongoDB",
+          "submodule": "Orders",
+          "targets": [
+            "m"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Orders.Web",
+          "submodule": "Orders",
+          "targets": [
+            "w"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Payments.Application",
+          "submodule": "Payments",
+          "targets": [
+            "a"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Payments.Application.Contracts",
+          "submodule": "Payments",
+          "targets": [
+            "c"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Payments.Domain",
+          "submodule": "Payments",
+          "targets": [
+            "o"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Payments.Domain.Shared",
+          "submodule": "Payments",
+          "targets": [
+            "s"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Payments.EntityFrameworkCore",
+          "submodule": "Payments",
+          "targets": [
+            "e"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Payments.HttpApi",
+          "submodule": "Payments",
+          "targets": [
+            "h"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Payments.HttpApi.Client",
+          "submodule": "Payments",
+          "targets": [
+            "l"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Payments.MongoDB",
+          "submodule": "Payments",
+          "targets": [
+            "m"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Payments.Web",
+          "submodule": "Payments",
+          "targets": [
+            "w"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Plugins.Application",
+          "submodule": "Plugins",
+          "targets": [
+            "a"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Plugins.Application.Contracts",
+          "submodule": "Plugins",
+          "targets": [
+            "c"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Plugins.Domain",
+          "submodule": "Plugins",
+          "targets": [
+            "o"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Plugins.Domain.Shared",
+          "submodule": "Plugins",
+          "targets": [
+            "s"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Plugins.EntityFrameworkCore",
+          "submodule": "Plugins",
+          "targets": [
+            "e"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Plugins.HttpApi",
+          "submodule": "Plugins",
+          "targets": [
+            "h"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Plugins.HttpApi.Client",
+          "submodule": "Plugins",
+          "targets": [
+            "l"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Plugins.MongoDB",
+          "submodule": "Plugins",
+          "targets": [
+            "m"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Plugins.Web",
+          "submodule": "Plugins",
+          "targets": [
+            "w"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Products.Application",
+          "submodule": "Products",
+          "targets": [
+            "a"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Products.Application.Contracts",
+          "submodule": "Products",
+          "targets": [
+            "c"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Products.Domain",
+          "submodule": "Products",
+          "targets": [
+            "o"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Products.Domain.Shared",
+          "submodule": "Products",
+          "targets": [
+            "s"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Products.EntityFrameworkCore",
+          "submodule": "Products",
+          "targets": [
+            "e"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Products.HttpApi",
+          "submodule": "Products",
+          "targets": [
+            "h"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Products.HttpApi.Client",
+          "submodule": "Products",
+          "targets": [
+            "l"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Products.MongoDB",
+          "submodule": "Products",
+          "targets": [
+            "m"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Products.Web",
+          "submodule": "Products",
+          "targets": [
+            "w"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Stores.Application",
+          "submodule": "Stores",
+          "targets": [
+            "a"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Stores.Application.Contracts",
+          "submodule": "Stores",
+          "targets": [
+            "c"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Stores.Domain",
+          "submodule": "Stores",
+          "targets": [
+            "o"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Stores.Domain.Shared",
+          "submodule": "Stores",
+          "targets": [
+            "s"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Stores.EntityFrameworkCore",
+          "submodule": "Stores",
+          "targets": [
+            "e"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Stores.HttpApi",
+          "submodule": "Stores",
+          "targets": [
+            "h"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Stores.HttpApi.Client",
+          "submodule": "Stores",
+          "targets": [
+            "l"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Stores.MongoDB",
+          "submodule": "Stores",
+          "targets": [
+            "m"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Stores.Web",
+          "submodule": "Stores",
+          "targets": [
+            "w"
+          ],
+          "checked": false
+        }
+      ]
+    },
+    {
+      "id": "EasyAbp.EShop.Plugins.Baskets",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/EShop",
+      "category": "Business",
+      "desc": "An abp application module group that provides basic e-shop service.",
+      "tags": [
+        "Business",
+        "Sale"
+      ],
+      "modules": [
+        {
+          "id": "Application",
+          "targets": [
+            "a"
+          ],
+          "checked": true
+        },
+        {
+          "id": "Application.Contracts",
+          "targets": [
+            "c"
+          ],
+          "checked": true
+        },
+        {
+          "id": "Domain",
+          "targets": [
+            "o"
+          ],
+          "checked": true
+        },
+        {
+          "id": "Domain.Shared",
+          "targets": [
+            "s"
+          ],
+          "checked": true
+        },
+        {
+          "id": "EntityFrameworkCore",
+          "targets": [
+            "e"
+          ],
+          "checked": true
+        },
+        {
+          "id": "HttpApi",
+          "targets": [
+            "h"
+          ],
+          "checked": true
+        },
+        {
+          "id": "HttpApi.Client",
+          "targets": [
+            "l"
+          ],
+          "checked": true
+        },
+        {
+          "id": "MongoDB",
+          "targets": [
+            "m"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Web",
+          "targets": [
+            "w"
+          ],
+          "checked": true
+        }
+      ]
+    },
+    {
+      "id": "EasyAbp.EShop.Plugins.Coupons",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/EShop",
+      "category": "Business",
+      "desc": "An abp application module group that provides basic e-shop service.",
+      "tags": [
+        "Business",
+        "Sale"
+      ],
+      "modules": [
+        {
+          "id": "Application",
+          "targets": [
+            "a"
+          ],
+          "checked": true
+        },
+        {
+          "id": "Application.Contracts",
+          "targets": [
+            "c"
+          ],
+          "checked": true
+        },
+        {
+          "id": "Domain",
+          "targets": [
+            "o"
+          ],
+          "checked": true
+        },
+        {
+          "id": "Domain.Shared",
+          "targets": [
+            "s"
+          ],
+          "checked": true
+        },
+        {
+          "id": "EntityFrameworkCore",
+          "targets": [
+            "e"
+          ],
+          "checked": true
+        },
+        {
+          "id": "HttpApi",
+          "targets": [
+            "h"
+          ],
+          "checked": true
+        },
+        {
+          "id": "HttpApi.Client",
+          "targets": [
+            "l"
+          ],
+          "checked": true
+        },
+        {
+          "id": "MongoDB",
+          "targets": [
+            "m"
+          ],
+          "checked": false
+        },
+        {
+          "id": "Web",
+          "targets": [
+            "w"
+          ],
+          "checked": true
+        }
+      ]
+    }
+  ]
+}
+
         {
           "id": "Web",
           "targets": [
