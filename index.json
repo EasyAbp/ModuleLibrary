@@ -130,63 +130,63 @@
           "default": true
         },
         {
-          "id": "Order.Application",
+          "id": "Orders.Application",
           "targets": [
             "a"
           ],
           "default": false
         },
         {
-          "id": "Order.Application.Contracts",
+          "id": "Orders.Application.Contracts",
           "targets": [
             "c"
           ],
           "default": false
         },
         {
-          "id": "Order.Domain",
+          "id": "Orders.Domain",
           "targets": [
             "o"
           ],
           "default": false
         },
         {
-          "id": "Order.Domain.Shared",
+          "id": "Orders.Domain.Shared",
           "targets": [
             "s"
           ],
           "default": false
         },
         {
-          "id": "Order.EntityFrameworkCore",
+          "id": "Orders.EntityFrameworkCore",
           "targets": [
             "e"
           ],
           "default": false
         },
         {
-          "id": "Order.HttpApi",
+          "id": "Orders.HttpApi",
           "targets": [
             "h"
           ],
           "default": false
         },
         {
-          "id": "Order.HttpApi.Client",
+          "id": "Orders.HttpApi.Client",
           "targets": [
             "l"
           ],
           "default": false
         },
         {
-          "id": "Order.MongoDB",
+          "id": "Orders.MongoDB",
           "targets": [
             "m"
           ],
           "default": false
         },
         {
-          "id": "Order.Web",
+          "id": "Orders.Web",
           "targets": [
             "w"
           ],
