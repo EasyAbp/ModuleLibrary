@@ -14,42 +14,42 @@
         {
           "id": "Application",
           "targets": [
-            "a"
+            "Application"
           ],
           "default": true
         },
         {
           "id": "Application.Contracts",
           "targets": [
-            "c"
+            "Application.Contracts"
           ],
           "default": true
         },
         {
           "id": "HttpApi",
           "targets": [
-            "h"
+            "HttpApi"
           ],
           "default": true
         },
         {
           "id": "HttpApi.Client",
           "targets": [
-            "l"
+            "HttpApi.Client"
           ],
           "default": true
         },
         {
           "id": "Web",
           "targets": [
-            "w"
+            "Web"
           ],
           "default": true
         },
         {
           "id": "Provider.TencentCloudCls",
           "targets": [
-            "a"
+            "Application"
           ],
           "default": false
         }
@@ -69,378 +69,378 @@
         {
           "id": "Application",
           "targets": [
-            "a"
+            "Application"
           ],
           "default": true
         },
         {
           "id": "Application.Contracts",
           "targets": [
-            "c"
+            "Application.Contracts"
           ],
           "default": true
         },
         {
           "id": "Domain",
           "targets": [
-            "o"
+            "Domain"
           ],
           "default": true
         },
         {
           "id": "Domain.Shared",
           "targets": [
-            "s"
+            "Domain.Shared"
           ],
           "default": true
         },
         {
           "id": "EntityFrameworkCore",
           "targets": [
-            "e"
+            "EntityFrameworkCore"
           ],
           "default": true
         },
         {
           "id": "HttpApi",
           "targets": [
-            "h"
+            "HttpApi"
           ],
           "default": true
         },
         {
           "id": "HttpApi.Client",
           "targets": [
-            "l"
+            "HttpApi.Client"
           ],
           "default": true
         },
         {
           "id": "MongoDB",
           "targets": [
-            "m"
+            "MongoDB"
           ],
           "default": false
         },
         {
           "id": "Web",
           "targets": [
-            "w"
+            "Web"
           ],
           "default": true
         },
         {
           "id": "Orders.Application",
           "targets": [
-            "a"
+            "Application"
           ],
           "default": false
         },
         {
           "id": "Orders.Application.Contracts",
           "targets": [
-            "c"
+            "Application.Contracts"
           ],
           "default": false
         },
         {
           "id": "Orders.Domain",
           "targets": [
-            "o"
+            "Domain"
           ],
           "default": false
         },
         {
           "id": "Orders.Domain.Shared",
           "targets": [
-            "s"
+            "Domain.Shared"
           ],
           "default": false
         },
         {
           "id": "Orders.EntityFrameworkCore",
           "targets": [
-            "e"
+            "EntityFrameworkCore"
           ],
           "default": false
         },
         {
           "id": "Orders.HttpApi",
           "targets": [
-            "h"
+            "HttpApi"
           ],
           "default": false
         },
         {
           "id": "Orders.HttpApi.Client",
           "targets": [
-            "l"
+            "HttpApi.Client"
           ],
           "default": false
         },
         {
           "id": "Orders.MongoDB",
           "targets": [
-            "m"
+            "MongoDB"
           ],
           "default": false
         },
         {
           "id": "Orders.Web",
           "targets": [
-            "w"
+            "Web"
           ],
           "default": false
         },
         {
           "id": "Payments.Application",
           "targets": [
-            "a"
+            "Application"
           ],
           "default": false
         },
         {
           "id": "Payments.Application.Contracts",
           "targets": [
-            "c"
+            "Application.Contracts"
           ],
           "default": false
         },
         {
           "id": "Payments.Domain",
           "targets": [
-            "o"
+            "Domain"
           ],
           "default": false
         },
         {
           "id": "Payments.Domain.Shared",
           "targets": [
-            "s"
+            "Domain.Shared"
           ],
           "default": false
         },
         {
           "id": "Payments.EntityFrameworkCore",
           "targets": [
-            "e"
+            "EntityFrameworkCore"
           ],
           "default": false
         },
         {
           "id": "Payments.HttpApi",
           "targets": [
-            "h"
+            "HttpApi"
           ],
           "default": false
         },
         {
           "id": "Payments.HttpApi.Client",
           "targets": [
-            "l"
+            "HttpApi.Client"
           ],
           "default": false
         },
         {
           "id": "Payments.MongoDB",
           "targets": [
-            "m"
+            "MongoDB"
           ],
           "default": false
         },
         {
           "id": "Payments.Web",
           "targets": [
-            "w"
+            "Web"
           ],
           "default": false
         },
         {
           "id": "Plugins.Application",
           "targets": [
-            "a"
+            "Application"
           ],
           "default": false
         },
         {
           "id": "Plugins.Application.Contracts",
           "targets": [
-            "c"
+            "Application.Contracts"
           ],
           "default": false
         },
         {
           "id": "Plugins.Domain",
           "targets": [
-            "o"
+            "Domain"
           ],
           "default": false
         },
         {
           "id": "Plugins.Domain.Shared",
           "targets": [
-            "s"
+            "Domain.Shared"
           ],
           "default": false
         },
         {
           "id": "Plugins.EntityFrameworkCore",
           "targets": [
-            "e"
+            "EntityFrameworkCore"
           ],
           "default": false
         },
         {
           "id": "Plugins.HttpApi",
           "targets": [
-            "h"
+            "HttpApi"
           ],
           "default": false
         },
         {
           "id": "Plugins.HttpApi.Client",
           "targets": [
-            "l"
+            "HttpApi.Client"
           ],
           "default": false
         },
         {
           "id": "Plugins.MongoDB",
           "targets": [
-            "m"
+            "MongoDB"
           ],
           "default": false
         },
         {
           "id": "Plugins.Web",
           "targets": [
-            "w"
+            "Web"
           ],
           "default": false
         },
         {
           "id": "Products.Application",
           "targets": [
-            "a"
+            "Application"
           ],
           "default": false
         },
         {
           "id": "Products.Application.Contracts",
           "targets": [
-            "c"
+            "Application.Contracts"
           ],
           "default": false
         },
         {
           "id": "Products.Domain",
           "targets": [
-            "o"
+            "Domain"
           ],
           "default": false
         },
         {
           "id": "Products.Domain.Shared",
           "targets": [
-            "s"
+            "Domain.Shared"
           ],
           "default": false
         },
         {
           "id": "Products.EntityFrameworkCore",
           "targets": [
-            "e"
+            "EntityFrameworkCore"
           ],
           "default": false
         },
         {
           "id": "Products.HttpApi",
           "targets": [
-            "h"
+            "HttpApi"
           ],
           "default": false
         },
         {
           "id": "Products.HttpApi.Client",
           "targets": [
-            "l"
+            "HttpApi.Client"
           ],
           "default": false
         },
         {
           "id": "Products.MongoDB",
           "targets": [
-            "m"
+            "MongoDB"
           ],
           "default": false
         },
         {
           "id": "Products.Web",
           "targets": [
-            "w"
+            "Web"
           ],
           "default": false
         },
         {
           "id": "Stores.Application",
           "targets": [
-            "a"
+            "Application"
           ],
           "default": false
         },
         {
           "id": "Stores.Application.Contracts",
           "targets": [
-            "c"
+            "Application.Contracts"
           ],
           "default": false
         },
         {
           "id": "Stores.Domain",
           "targets": [
-            "o"
+            "Domain"
           ],
           "default": false
         },
         {
           "id": "Stores.Domain.Shared",
           "targets": [
-            "s"
+            "Domain.Shared"
           ],
           "default": false
         },
         {
           "id": "Stores.EntityFrameworkCore",
           "targets": [
-            "e"
+            "EntityFrameworkCore"
           ],
           "default": false
         },
         {
           "id": "Stores.HttpApi",
           "targets": [
-            "h"
+            "HttpApi"
           ],
           "default": false
         },
         {
           "id": "Stores.HttpApi.Client",
           "targets": [
-            "l"
+            "HttpApi.Client"
           ],
           "default": false
         },
         {
           "id": "Stores.MongoDB",
           "targets": [
-            "m"
+            "MongoDB"
           ],
           "default": false
         },
         {
           "id": "Stores.Web",
           "targets": [
-            "w"
+            "Web"
           ],
           "default": false
         }
@@ -460,63 +460,63 @@
         {
           "id": "Application",
           "targets": [
-            "a"
+            "Application"
           ],
           "default": true
         },
         {
           "id": "Application.Contracts",
           "targets": [
-            "c"
+            "Application.Contracts"
           ],
           "default": true
         },
         {
           "id": "Domain",
           "targets": [
-            "o"
+            "Domain"
           ],
           "default": true
         },
         {
           "id": "Domain.Shared",
           "targets": [
-            "s"
+            "Domain.Shared"
           ],
           "default": true
         },
         {
           "id": "EntityFrameworkCore",
           "targets": [
-            "e"
+            "EntityFrameworkCore"
           ],
           "default": true
         },
         {
           "id": "HttpApi",
           "targets": [
-            "h"
+            "HttpApi"
           ],
           "default": true
         },
         {
           "id": "HttpApi.Client",
           "targets": [
-            "l"
+            "HttpApi.Client"
           ],
           "default": true
         },
         {
           "id": "MongoDB",
           "targets": [
-            "m"
+            "MongoDB"
           ],
           "default": false
         },
         {
           "id": "Web",
           "targets": [
-            "w"
+            "Web"
           ],
           "default": true
         }
@@ -536,63 +536,63 @@
         {
           "id": "Application",
           "targets": [
-            "a"
+            "Application"
           ],
           "default": true
         },
         {
           "id": "Application.Contracts",
           "targets": [
-            "c"
+            "Application.Contracts"
           ],
           "default": true
         },
         {
           "id": "Domain",
           "targets": [
-            "o"
+            "Domain"
           ],
           "default": true
         },
         {
           "id": "Domain.Shared",
           "targets": [
-            "s"
+            "Domain.Shared"
           ],
           "default": true
         },
         {
           "id": "EntityFrameworkCore",
           "targets": [
-            "e"
+            "EntityFrameworkCore"
           ],
           "default": true
         },
         {
           "id": "HttpApi",
           "targets": [
-            "h"
+            "HttpApi"
           ],
           "default": true
         },
         {
           "id": "HttpApi.Client",
           "targets": [
-            "l"
+            "HttpApi.Client"
           ],
           "default": true
         },
         {
           "id": "MongoDB",
           "targets": [
-            "m"
+            "MongoDB"
           ],
           "default": false
         },
         {
           "id": "Web",
           "targets": [
-            "w"
+            "Web"
           ],
           "default": true
         }
