@@ -1760,7 +1760,7 @@
       ]
     },
     {
-      "id": "Abp.AspNetCore.Mvc.UI.Theme",
+      "id": "EasyAbp.Abp.AspNetCore.Mvc.UI.Theme",
       "org": "EasyAbp",
       "repo": "https://github.com/EasyAbp/Abp.AspNetCore.Mvc.UI.Theme.LYear",
       "category": "Theme",
