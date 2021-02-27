@@ -131,6 +131,7 @@
         },
         {
           "id": "Orders.Application",
+          "submodule": "Orders",
           "defaultTargets": [
             "Application"
           ],
@@ -138,6 +139,7 @@
         },
         {
           "id": "Orders.Application.Contracts",
+          "submodule": "Orders",
           "defaultTargets": [
             "Application.Contracts"
           ],
@@ -145,6 +147,7 @@
         },
         {
           "id": "Orders.Domain",
+          "submodule": "Orders",
           "defaultTargets": [
             "Domain"
           ],
@@ -152,6 +155,7 @@
         },
         {
           "id": "Orders.Domain.Shared",
+          "submodule": "Orders",
           "defaultTargets": [
             "Domain.Shared"
           ],
@@ -159,6 +163,7 @@
         },
         {
           "id": "Orders.EntityFrameworkCore",
+          "submodule": "Orders",
           "defaultTargets": [
             "EntityFrameworkCore"
           ],
@@ -166,6 +171,7 @@
         },
         {
           "id": "Orders.HttpApi",
+          "submodule": "Orders",
           "defaultTargets": [
             "HttpApi"
           ],
@@ -173,6 +179,7 @@
         },
         {
           "id": "Orders.HttpApi.Client",
+          "submodule": "Orders",
           "defaultTargets": [
             "HttpApi.Client"
           ],
@@ -180,6 +187,7 @@
         },
         {
           "id": "Orders.MongoDB",
+          "submodule": "Orders",
           "defaultTargets": [
             "MongoDB"
           ],
@@ -187,6 +195,7 @@
         },
         {
           "id": "Orders.Web",
+          "submodule": "Orders",
           "defaultTargets": [
             "Web"
           ],
@@ -194,6 +203,7 @@
         },
         {
           "id": "Payments.Application",
+          "submodule": "Payments",
           "defaultTargets": [
             "Application"
           ],
@@ -201,6 +211,7 @@
         },
         {
           "id": "Payments.Application.Contracts",
+          "submodule": "Payments",
           "defaultTargets": [
             "Application.Contracts"
           ],
@@ -208,6 +219,7 @@
         },
         {
           "id": "Payments.Domain",
+          "submodule": "Payments",
           "defaultTargets": [
             "Domain"
           ],
@@ -215,6 +227,7 @@
         },
         {
           "id": "Payments.Domain.Shared",
+          "submodule": "Payments",
           "defaultTargets": [
             "Domain.Shared"
           ],
@@ -222,6 +235,7 @@
         },
         {
           "id": "Payments.EntityFrameworkCore",
+          "submodule": "Payments",
           "defaultTargets": [
             "EntityFrameworkCore"
           ],
@@ -229,6 +243,7 @@
         },
         {
           "id": "Payments.HttpApi",
+          "submodule": "Payments",
           "defaultTargets": [
             "HttpApi"
           ],
@@ -236,6 +251,7 @@
         },
         {
           "id": "Payments.HttpApi.Client",
+          "submodule": "Payments",
           "defaultTargets": [
             "HttpApi.Client"
           ],
@@ -243,6 +259,7 @@
         },
         {
           "id": "Payments.MongoDB",
+          "submodule": "Payments",
           "defaultTargets": [
             "MongoDB"
           ],
@@ -250,6 +267,7 @@
         },
         {
           "id": "Payments.Web",
+          "submodule": "Payments",
           "defaultTargets": [
             "Web"
           ],
@@ -257,6 +275,7 @@
         },
         {
           "id": "Plugins.Application",
+          "submodule": "Plugins",
           "defaultTargets": [
             "Application"
           ],
@@ -264,6 +283,7 @@
         },
         {
           "id": "Plugins.Application.Contracts",
+          "submodule": "Plugins",
           "defaultTargets": [
             "Application.Contracts"
           ],
@@ -271,6 +291,7 @@
         },
         {
           "id": "Plugins.Domain",
+          "submodule": "Plugins",
           "defaultTargets": [
             "Domain"
           ],
@@ -278,6 +299,7 @@
         },
         {
           "id": "Plugins.Domain.Shared",
+          "submodule": "Plugins",
           "defaultTargets": [
             "Domain.Shared"
           ],
@@ -285,6 +307,7 @@
         },
         {
           "id": "Plugins.EntityFrameworkCore",
+          "submodule": "Plugins",
           "defaultTargets": [
             "EntityFrameworkCore"
           ],
@@ -292,6 +315,7 @@
         },
         {
           "id": "Plugins.HttpApi",
+          "submodule": "Plugins",
           "defaultTargets": [
             "HttpApi"
           ],
@@ -299,6 +323,7 @@
         },
         {
           "id": "Plugins.HttpApi.Client",
+          "submodule": "Plugins",
           "defaultTargets": [
             "HttpApi.Client"
           ],
@@ -306,6 +331,7 @@
         },
         {
           "id": "Plugins.MongoDB",
+          "submodule": "Plugins",
           "defaultTargets": [
             "MongoDB"
           ],
@@ -313,6 +339,7 @@
         },
         {
           "id": "Plugins.Web",
+          "submodule": "Plugins",
           "defaultTargets": [
             "Web"
           ],
@@ -320,6 +347,7 @@
         },
         {
           "id": "Products.Application",
+          "submodule": "Products",
           "defaultTargets": [
             "Application"
           ],
@@ -327,6 +355,7 @@
         },
         {
           "id": "Products.Application.Contracts",
+          "submodule": "Products",
           "defaultTargets": [
             "Application.Contracts"
           ],
@@ -334,6 +363,7 @@
         },
         {
           "id": "Products.Domain",
+          "submodule": "Products",
           "defaultTargets": [
             "Domain"
           ],
@@ -341,6 +371,7 @@
         },
         {
           "id": "Products.Domain.Shared",
+          "submodule": "Products",
           "defaultTargets": [
             "Domain.Shared"
           ],
@@ -348,6 +379,7 @@
         },
         {
           "id": "Products.EntityFrameworkCore",
+          "submodule": "Products",
           "defaultTargets": [
             "EntityFrameworkCore"
           ],
@@ -355,6 +387,7 @@
         },
         {
           "id": "Products.HttpApi",
+          "submodule": "Products",
           "defaultTargets": [
             "HttpApi"
           ],
@@ -362,6 +395,7 @@
         },
         {
           "id": "Products.HttpApi.Client",
+          "submodule": "Products",
           "defaultTargets": [
             "HttpApi.Client"
           ],
@@ -369,6 +403,7 @@
         },
         {
           "id": "Products.MongoDB",
+          "submodule": "Products",
           "defaultTargets": [
             "MongoDB"
           ],
@@ -376,6 +411,7 @@
         },
         {
           "id": "Products.Web",
+          "submodule": "Products",
           "defaultTargets": [
             "Web"
           ],
@@ -383,6 +419,7 @@
         },
         {
           "id": "Stores.Application",
+          "submodule": "Stores",
           "defaultTargets": [
             "Application"
           ],
@@ -390,6 +427,7 @@
         },
         {
           "id": "Stores.Application.Contracts",
+          "submodule": "Stores",
           "defaultTargets": [
             "Application.Contracts"
           ],
@@ -397,6 +435,7 @@
         },
         {
           "id": "Stores.Domain",
+          "submodule": "Stores",
           "defaultTargets": [
             "Domain"
           ],
@@ -404,6 +443,7 @@
         },
         {
           "id": "Stores.Domain.Shared",
+          "submodule": "Stores",
           "defaultTargets": [
             "Domain.Shared"
           ],
@@ -411,6 +451,7 @@
         },
         {
           "id": "Stores.EntityFrameworkCore",
+          "submodule": "Stores",
           "defaultTargets": [
             "EntityFrameworkCore"
           ],
@@ -418,6 +459,7 @@
         },
         {
           "id": "Stores.HttpApi",
+          "submodule": "Stores",
           "defaultTargets": [
             "HttpApi"
           ],
@@ -425,6 +467,7 @@
         },
         {
           "id": "Stores.HttpApi.Client",
+          "submodule": "Stores",
           "defaultTargets": [
             "HttpApi.Client"
           ],
@@ -432,6 +475,7 @@
         },
         {
           "id": "Stores.MongoDB",
+          "submodule": "Stores",
           "defaultTargets": [
             "MongoDB"
           ],
@@ -439,6 +483,7 @@
         },
         {
           "id": "Stores.Web",
+          "submodule": "Stores",
           "defaultTargets": [
             "Web"
           ],
@@ -737,6 +782,7 @@
         },
         {
           "id": "Provider.Mailing",
+          "submodule": "Provider.Mailing",
           "defaultTargets": [
             "Application"
           ],
@@ -744,6 +790,7 @@
         },
         {
           "id": "Provider.Sms",
+          "submodule": "Provider.Sms",
           "defaultTargets": [
             "Application"
           ],
@@ -830,6 +877,7 @@
       "modules": [
         {
           "id": "MiniPrograms.Application",
+          "submodule": "MiniPrograms",
           "defaultTargets": [
             "Application"
           ],
@@ -837,6 +885,7 @@
         },
         {
           "id": "MiniPrograms.Application.Contracts",
+          "submodule": "MiniPrograms",
           "defaultTargets": [
             "Application.Contracts"
           ],
@@ -844,6 +893,7 @@
         },
         {
           "id": "MiniPrograms.Domain",
+          "submodule": "MiniPrograms",
           "defaultTargets": [
             "Domain"
           ],
@@ -851,6 +901,7 @@
         },
         {
           "id": "MiniPrograms.Domain.Shared",
+          "submodule": "MiniPrograms",
           "defaultTargets": [
             "Domain.Shared"
           ],
@@ -858,20 +909,15 @@
         },
         {
           "id": "MiniPrograms.EntityFrameworkCore",
+          "submodule": "MiniPrograms",
           "defaultTargets": [
             "EntityFrameworkCore"
           ],
           "default": true
         },
         {
-          "id": "MiniPrograms.MongoDB",
-          "defaultTargets": [
-            "MongoDB"
-          ],
-          "default": false
-        },
-        {
           "id": "MiniPrograms.HttpApi",
+          "submodule": "MiniPrograms",
           "defaultTargets": [
             "HttpApi"
           ],
@@ -879,13 +925,23 @@
         },
         {
           "id": "MiniPrograms.HttpApi.Client",
+          "submodule": "MiniPrograms",
           "defaultTargets": [
             "HttpApi.Client"
           ],
           "default": true
         },
         {
+          "id": "MiniPrograms.MongoDB",
+          "submodule": "MiniPrograms",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": false
+        },
+        {
           "id": "MiniPrograms.Web",
+          "submodule": "MiniPrograms",
           "defaultTargets": [
             "Web"
           ],
@@ -893,6 +949,7 @@
         },
         {
           "id": "Common.Domain.Shared",
+          "submodule": "Common",
           "defaultTargets": [],
           "default": false
         }
@@ -1221,6 +1278,150 @@
         },
         {
           "id": "Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        },
+        {
+          "id": "Prepayment.Application",
+          "submodule": "Prepayment",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Prepayment.Application.Contracts",
+          "submodule": "Prepayment",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "Prepayment.Domain",
+          "submodule": "Prepayment",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "Prepayment.Domain.Shared",
+          "submodule": "Prepayment",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "Prepayment.EntityFrameworkCore",
+          "submodule": "Prepayment",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "Prepayment.HttpApi",
+          "submodule": "Prepayment",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "Prepayment.HttpApi.Client",
+          "submodule": "Prepayment",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        },
+        {
+          "id": "Prepayment.MongoDB",
+          "submodule": "Prepayment",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": false
+        },
+        {
+          "id": "Prepayment.Web",
+          "submodule": "Prepayment",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        },
+        {
+          "id": "WeChatPay.Application",
+          "submodule": "WeChatPay",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "WeChatPay.Application.Contracts",
+          "submodule": "WeChatPay",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "WeChatPay.Domain",
+          "submodule": "WeChatPay",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "WeChatPay.Domain.Shared",
+          "submodule": "WeChatPay",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "WeChatPay.EntityFrameworkCore",
+          "submodule": "WeChatPay",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "WeChatPay.HttpApi",
+          "submodule": "WeChatPay",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "WeChatPay.HttpApi.Client",
+          "submodule": "WeChatPay",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        },
+        {
+          "id": "WeChatPay.MongoDB",
+          "submodule": "WeChatPay",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": false
+        },
+        {
+          "id": "WeChatPay.Web",
+          "submodule": "WeChatPay",
           "defaultTargets": [
             "Web"
           ],
