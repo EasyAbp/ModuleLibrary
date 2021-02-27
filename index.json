@@ -131,6 +131,7 @@
         },
         {
           "id": "Orders.Application",
+          "submodule": "Orders",
           "defaultTargets": [
             "Application"
           ],
@@ -138,6 +139,7 @@
         },
         {
           "id": "Orders.Application.Contracts",
+          "submodule": "Orders",
           "defaultTargets": [
             "Application.Contracts"
           ],
@@ -145,6 +147,7 @@
         },
         {
           "id": "Orders.Domain",
+          "submodule": "Orders",
           "defaultTargets": [
             "Domain"
           ],
@@ -152,6 +155,7 @@
         },
         {
           "id": "Orders.Domain.Shared",
+          "submodule": "Orders",
           "defaultTargets": [
             "Domain.Shared"
           ],
@@ -159,6 +163,7 @@
         },
         {
           "id": "Orders.EntityFrameworkCore",
+          "submodule": "Orders",
           "defaultTargets": [
             "EntityFrameworkCore"
           ],
@@ -166,6 +171,7 @@
         },
         {
           "id": "Orders.HttpApi",
+          "submodule": "Orders",
           "defaultTargets": [
             "HttpApi"
           ],
@@ -173,6 +179,7 @@
         },
         {
           "id": "Orders.HttpApi.Client",
+          "submodule": "Orders",
           "defaultTargets": [
             "HttpApi.Client"
           ],
@@ -180,6 +187,7 @@
         },
         {
           "id": "Orders.MongoDB",
+          "submodule": "Orders",
           "defaultTargets": [
             "MongoDB"
           ],
@@ -187,6 +195,7 @@
         },
         {
           "id": "Orders.Web",
+          "submodule": "Orders",
           "defaultTargets": [
             "Web"
           ],
@@ -194,6 +203,7 @@
         },
         {
           "id": "Payments.Application",
+          "submodule": "Payments",
           "defaultTargets": [
             "Application"
           ],
@@ -201,6 +211,7 @@
         },
         {
           "id": "Payments.Application.Contracts",
+          "submodule": "Payments",
           "defaultTargets": [
             "Application.Contracts"
           ],
@@ -208,6 +219,7 @@
         },
         {
           "id": "Payments.Domain",
+          "submodule": "Payments",
           "defaultTargets": [
             "Domain"
           ],
@@ -215,6 +227,7 @@
         },
         {
           "id": "Payments.Domain.Shared",
+          "submodule": "Payments",
           "defaultTargets": [
             "Domain.Shared"
           ],
@@ -222,6 +235,7 @@
         },
         {
           "id": "Payments.EntityFrameworkCore",
+          "submodule": "Payments",
           "defaultTargets": [
             "EntityFrameworkCore"
           ],
@@ -229,6 +243,7 @@
         },
         {
           "id": "Payments.HttpApi",
+          "submodule": "Payments",
           "defaultTargets": [
             "HttpApi"
           ],
@@ -236,6 +251,7 @@
         },
         {
           "id": "Payments.HttpApi.Client",
+          "submodule": "Payments",
           "defaultTargets": [
             "HttpApi.Client"
           ],
@@ -243,6 +259,7 @@
         },
         {
           "id": "Payments.MongoDB",
+          "submodule": "Payments",
           "defaultTargets": [
             "MongoDB"
           ],
@@ -250,6 +267,7 @@
         },
         {
           "id": "Payments.Web",
+          "submodule": "Payments",
           "defaultTargets": [
             "Web"
           ],
@@ -257,6 +275,7 @@
         },
         {
           "id": "Plugins.Application",
+          "submodule": "Plugins",
           "defaultTargets": [
             "Application"
           ],
@@ -264,6 +283,7 @@
         },
         {
           "id": "Plugins.Application.Contracts",
+          "submodule": "Plugins",
           "defaultTargets": [
             "Application.Contracts"
           ],
@@ -271,6 +291,7 @@
         },
         {
           "id": "Plugins.Domain",
+          "submodule": "Plugins",
           "defaultTargets": [
             "Domain"
           ],
@@ -278,6 +299,7 @@
         },
         {
           "id": "Plugins.Domain.Shared",
+          "submodule": "Plugins",
           "defaultTargets": [
             "Domain.Shared"
           ],
@@ -285,6 +307,7 @@
         },
         {
           "id": "Plugins.EntityFrameworkCore",
+          "submodule": "Plugins",
           "defaultTargets": [
             "EntityFrameworkCore"
           ],
@@ -292,6 +315,7 @@
         },
         {
           "id": "Plugins.HttpApi",
+          "submodule": "Plugins",
           "defaultTargets": [
             "HttpApi"
           ],
@@ -299,6 +323,7 @@
         },
         {
           "id": "Plugins.HttpApi.Client",
+          "submodule": "Plugins",
           "defaultTargets": [
             "HttpApi.Client"
           ],
@@ -306,6 +331,7 @@
         },
         {
           "id": "Plugins.MongoDB",
+          "submodule": "Plugins",
           "defaultTargets": [
             "MongoDB"
           ],
@@ -313,6 +339,7 @@
         },
         {
           "id": "Plugins.Web",
+          "submodule": "Plugins",
           "defaultTargets": [
             "Web"
           ],
@@ -320,6 +347,7 @@
         },
         {
           "id": "Products.Application",
+          "submodule": "Products",
           "defaultTargets": [
             "Application"
           ],
@@ -327,6 +355,7 @@
         },
         {
           "id": "Products.Application.Contracts",
+          "submodule": "Products",
           "defaultTargets": [
             "Application.Contracts"
           ],
@@ -334,6 +363,7 @@
         },
         {
           "id": "Products.Domain",
+          "submodule": "Products",
           "defaultTargets": [
             "Domain"
           ],
@@ -341,6 +371,7 @@
         },
         {
           "id": "Products.Domain.Shared",
+          "submodule": "Products",
           "defaultTargets": [
             "Domain.Shared"
           ],
@@ -348,6 +379,7 @@
         },
         {
           "id": "Products.EntityFrameworkCore",
+          "submodule": "Products",
           "defaultTargets": [
             "EntityFrameworkCore"
           ],
@@ -355,6 +387,7 @@
         },
         {
           "id": "Products.HttpApi",
+          "submodule": "Products",
           "defaultTargets": [
             "HttpApi"
           ],
@@ -362,6 +395,7 @@
         },
         {
           "id": "Products.HttpApi.Client",
+          "submodule": "Products",
           "defaultTargets": [
             "HttpApi.Client"
           ],
@@ -369,6 +403,7 @@
         },
         {
           "id": "Products.MongoDB",
+          "submodule": "Products",
           "defaultTargets": [
             "MongoDB"
           ],
@@ -376,6 +411,7 @@
         },
         {
           "id": "Products.Web",
+          "submodule": "Products",
           "defaultTargets": [
             "Web"
           ],
@@ -383,6 +419,7 @@
         },
         {
           "id": "Stores.Application",
+          "submodule": "Stores",
           "defaultTargets": [
             "Application"
           ],
@@ -390,6 +427,7 @@
         },
         {
           "id": "Stores.Application.Contracts",
+          "submodule": "Stores",
           "defaultTargets": [
             "Application.Contracts"
           ],
@@ -397,6 +435,7 @@
         },
         {
           "id": "Stores.Domain",
+          "submodule": "Stores",
           "defaultTargets": [
             "Domain"
           ],
@@ -404,6 +443,7 @@
         },
         {
           "id": "Stores.Domain.Shared",
+          "submodule": "Stores",
           "defaultTargets": [
             "Domain.Shared"
           ],
@@ -411,6 +451,7 @@
         },
         {
           "id": "Stores.EntityFrameworkCore",
+          "submodule": "Stores",
           "defaultTargets": [
             "EntityFrameworkCore"
           ],
@@ -418,6 +459,7 @@
         },
         {
           "id": "Stores.HttpApi",
+          "submodule": "Stores",
           "defaultTargets": [
             "HttpApi"
           ],
@@ -425,6 +467,7 @@
         },
         {
           "id": "Stores.HttpApi.Client",
+          "submodule": "Stores",
           "defaultTargets": [
             "HttpApi.Client"
           ],
@@ -432,6 +475,7 @@
         },
         {
           "id": "Stores.MongoDB",
+          "submodule": "Stores",
           "defaultTargets": [
             "MongoDB"
           ],
@@ -439,6 +483,7 @@
         },
         {
           "id": "Stores.Web",
+          "submodule": "Stores",
           "defaultTargets": [
             "Web"
           ],
@@ -531,6 +576,1589 @@
       "tags": [
         "Business",
         "Sale"
+      ],
+      "modules": [
+        {
+          "id": "Application",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application.Contracts",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain.Shared",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "EntityFrameworkCore",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi.Client",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        },
+        {
+          "id": "MongoDB",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": false
+        },
+        {
+          "id": "Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "EasyAbp.Abp.SettingUi",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/Abp.SettingUi",
+      "category": "Infrastructure",
+      "desc": "An ABP module used to manage ABP settings.",
+      "tags": [
+        "Infrastructure",
+        "Setting"
+      ],
+      "modules": [
+        {
+          "id": "Application",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application.Contracts",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain.Shared",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi.Client",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        },
+        {
+          "id": "Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "EasyAbp.NotificationService",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/NotificationService",
+      "category": "Message",
+      "desc": "An integrated user notification service Abp module, supporting email, SMS, PM, and more other methods.",
+      "tags": [
+        "Message",
+        "Infrastructure",
+        "Notification"
+      ],
+      "modules": [
+        {
+          "id": "Application",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application.Contracts",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain.Shared",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "EntityFrameworkCore",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi.Client",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        },
+        {
+          "id": "Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        },
+        {
+          "id": "MongoDB",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": false
+        },
+        {
+          "id": "Provider.Mailing",
+          "submodule": "Provider.Mailing",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Provider.Sms",
+          "submodule": "Provider.Sms",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": false
+        }
+      ]
+    },
+    {
+      "id": "EasyAbp.Abp.DataDictionary",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/Abp.DataDictionary",
+      "category": "Infrastructure",
+      "desc": "Abp data dictionary module.",
+      "tags": [
+        "Infrastructure",
+        "Data"
+      ],
+      "modules": [
+        {
+          "id": "Application",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application.Contracts",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application.Contracts.Shared",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": false
+        },
+        {
+          "id": "Domain",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain.Shared",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "EntityFrameworkCore",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi.Client",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "EasyAbp.WeChatManagement",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/WeChatManagement",
+      "category": "WeChat",
+      "desc": "基于EasyAbp.Abp.WeChat模块实现微信登录、微信用户信息存储、微信服务器管理、微信第三方平台等高级功能的Abp应用模块组.",
+      "tags": [
+        "WeChat"
+      ],
+      "modules": [
+        {
+          "id": "MiniPrograms.Application",
+          "submodule": "MiniPrograms",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "MiniPrograms.Application.Contracts",
+          "submodule": "MiniPrograms",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "MiniPrograms.Domain",
+          "submodule": "MiniPrograms",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "MiniPrograms.Domain.Shared",
+          "submodule": "MiniPrograms",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "MiniPrograms.EntityFrameworkCore",
+          "submodule": "MiniPrograms",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "MiniPrograms.HttpApi",
+          "submodule": "MiniPrograms",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "MiniPrograms.HttpApi.Client",
+          "submodule": "MiniPrograms",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        },
+        {
+          "id": "MiniPrograms.MongoDB",
+          "submodule": "MiniPrograms",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": false
+        },
+        {
+          "id": "MiniPrograms.Web",
+          "submodule": "MiniPrograms",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        },
+        {
+          "id": "Common.Domain.Shared",
+          "submodule": "Common",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": false
+        }
+      ]
+    },
+    {
+      "id": "EasyAbp.Abp.AspNetCoreRateLimit",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/Abp.AspNetCoreRateLimit",
+      "category": "Infrastructure",
+      "desc": "An Abp module helps you control how often your service is used.",
+      "tags": [
+        "Infrastructure"
+      ],
+      "modules": [
+        {
+          "id": "Client",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Ip",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "EasyAbp.Abp.EventBus.CAP",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/Abp.EventBus.CAP",
+      "category": "Infrastructure",
+      "desc": "ABP vNext framework CAP EventBus module that integrated the CAP with the ABP framework.",
+      "tags": [
+        "Infrastructure",
+        "EventBus",
+        "CAP"
+      ],
+      "modules": [
+        {
+          "id": "",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "MySql",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": false
+        },
+        {
+          "id": "PostgreSql",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": false
+        },
+        {
+          "id": "SqlServer",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": false
+        }
+      ]
+    },
+    {
+      "id": "EasyAbp.Abp.RelatedDtoLoader",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/Abp.RelatedDtoLoader",
+      "category": "Infrastructure",
+      "desc": "An Abp module that help you automatically load related DTO (like ProductDto in OrderDto) under DDD.",
+      "tags": [
+        "Infrastructure",
+        "DTO"
+      ],
+      "modules": [
+        {
+          "id": "",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Abstractions",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "EasyAbp.Abp.TagHelperPlus",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/Abp.TagHelperPlus",
+      "category": "Infrastructure",
+      "desc": "An Abp MVC UI tag-helper enhancement module to enhance ABP built-in tag-helpers and provide new tag-helpers such as rich text editor, advanced selector, and more.",
+      "tags": [
+        "Infrastructure",
+        "RazorPages",
+        "TagHelper"
+      ],
+      "modules": [
+        {
+          "id": "",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "EasyAbp.Abp.Trees",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/Abp.Trees",
+      "category": "Infrastructure",
+      "desc": "An abp module that provides standard tree structure entity implement.",
+      "tags": [
+        "Infrastructure",
+        "Tree"
+      ],
+      "modules": [
+        {
+          "id": "Application",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application.Contracts",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain.Shared",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "EntityFrameworkCore",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "EasyAbp.CacheManagement",
+      "org": "EasyAbp",
+      "repo": "https://www.github.com/EasyAbp/CacheManagement",
+      "category": "Infrastructure",
+      "desc": "An abp application module helps administrators to manage the app cache data.",
+      "tags": [
+        "Infrastructure",
+        "Cache"
+      ],
+      "modules": [
+        {
+          "id": "Application",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application.Contracts",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain.Shared",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "EntityFrameworkCore",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi.Client",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        },
+        {
+          "id": "MongoDB",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": false
+        },
+        {
+          "id": "Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "EasyAbp.PaymentService",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/PaymentService",
+      "category": "Business",
+      "desc": "An abp application module that provides payment service.",
+      "tags": [
+        "Business",
+        "Payment"
+      ],
+      "modules": [
+        {
+          "id": "Application",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application.Contracts",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain.Shared",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "EntityFrameworkCore",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi.Client",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        },
+        {
+          "id": "MongoDB",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": false
+        },
+        {
+          "id": "Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        },
+        {
+          "id": "Prepayment.Application",
+          "submodule": "Prepayment",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Prepayment.Application.Contracts",
+          "submodule": "Prepayment",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "Prepayment.Domain",
+          "submodule": "Prepayment",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "Prepayment.Domain.Shared",
+          "submodule": "Prepayment",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "Prepayment.EntityFrameworkCore",
+          "submodule": "Prepayment",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "Prepayment.HttpApi",
+          "submodule": "Prepayment",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "Prepayment.HttpApi.Client",
+          "submodule": "Prepayment",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        },
+        {
+          "id": "Prepayment.MongoDB",
+          "submodule": "Prepayment",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": false
+        },
+        {
+          "id": "Prepayment.Web",
+          "submodule": "Prepayment",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        },
+        {
+          "id": "WeChatPay.Application",
+          "submodule": "WeChatPay",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "WeChatPay.Application.Contracts",
+          "submodule": "WeChatPay",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "WeChatPay.Domain",
+          "submodule": "WeChatPay",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "WeChatPay.Domain.Shared",
+          "submodule": "WeChatPay",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "WeChatPay.EntityFrameworkCore",
+          "submodule": "WeChatPay",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "WeChatPay.HttpApi",
+          "submodule": "WeChatPay",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "WeChatPay.HttpApi.Client",
+          "submodule": "WeChatPay",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        },
+        {
+          "id": "WeChatPay.MongoDB",
+          "submodule": "WeChatPay",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": false
+        },
+        {
+          "id": "WeChatPay.Web",
+          "submodule": "WeChatPay",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "EasyAbp.GiftCardManagement",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/GiftCardManagement",
+      "category": "Business",
+      "desc": "An abp application module where you can create gift cards and your app user can use them to exchange something.",
+      "tags": [
+        "Business",
+        "GiftCard"
+      ],
+      "modules": [
+        {
+          "id": "Application",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application.Contracts",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain.Shared",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "EntityFrameworkCore",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi.Client",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        },
+        {
+          "id": "MongoDB",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": false
+        },
+        {
+          "id": "Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "EasyAbp.ReviewManagement",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/ReviewManagement",
+      "category": "Business",
+      "desc": "An abp application module that provides general user review service. For example, a user can review a product he has bought with text, pictures and star-rating.",
+      "tags": [
+        "Business",
+        "Review",
+        "Comment"
+      ],
+      "modules": [
+        {
+          "id": "Application",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application.Contracts",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain.Shared",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "EntityFrameworkCore",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi.Client",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        },
+        {
+          "id": "MongoDB",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": false
+        },
+        {
+          "id": "Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "EasyAbp.Abp.VerificationCode",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/Abp.VerificationCode",
+      "category": "Message",
+      "desc": "An ABP module to generate and verify verification codes.",
+      "tags": [
+        "Message",
+        "User",
+        "Identity",
+        "VerificationCode"
+      ],
+      "modules": [
+        {
+          "id": "",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Identity",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "EasyAbp.Abp.Sms.TencentCloud",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/Abp.Sms.TencentCloud",
+      "category": "Message",
+      "desc": "Abp TencentCloud SMS module.",
+      "tags": [
+        "Message",
+        "Sms",
+        "TencentCloud"
+      ],
+      "modules": [
+        {
+          "id": "",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "EasyAbp.PrivateMessaging",
+      "org": "EasyAbp",
+      "repo": "https://www.github.com/EasyAbp/PrivateMessaging",
+      "category": "Message",
+      "desc": "An abp application module that allows users to send private messages to each other.",
+      "tags": [
+        "Message",
+        "PrivateMessaging"
+      ],
+      "modules": [
+        {
+          "id": "Application",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application.Contracts",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain.Shared",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "EntityFrameworkCore",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi.Client",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        },
+        {
+          "id": "MongoDB",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": false
+        },
+        {
+          "id": "Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "EasyAbp.Abp.BlobStoring.TencentCloud",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/Abp.BlobStoring.TencentCloud",
+      "category": "Resource",
+      "desc": "TencentCloud implementation of Abp BLOB Storing.",
+      "tags": [
+        "Resource",
+        "BlobStoring",
+        "TencentCloud"
+      ],
+      "modules": [
+        {
+          "id": "",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "EasyAbp.FileManagement",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/FileManagement",
+      "category": "Resource",
+      "desc": "An abp application module that allows users to upload and manage their own files based on the ABP BLOB storing.",
+      "tags": [
+        "Resource",
+        "File"
+      ],
+      "modules": [
+        {
+          "id": "Application",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application.Contracts",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain.Shared",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "EntityFrameworkCore",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi.Client",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        },
+        {
+          "id": "MongoDB",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": false
+        },
+        {
+          "id": "Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "EasyAbp.SharedResources",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/SharedResources",
+      "category": "Resource",
+      "desc": "An abp application module that allows users to share resources with each other.",
+      "tags": [
+        "Resource",
+        "Share"
+      ],
+      "modules": [
+        {
+          "id": "Application",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application.Contracts",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain.Shared",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "EntityFrameworkCore",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi.Client",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        },
+        {
+          "id": "MongoDB",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": false
+        },
+        {
+          "id": "Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "EasyAbp.Abp.PhoneNumberLogin",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/Abp.PhoneNumberLogin",
+      "category": "Account",
+      "desc": "An abp module to avoid duplicate user phone numbers being confirmed and providing phone number confirmation and phone number login features and more.",
+      "tags": [
+        "Account",
+        "User",
+        "Identity",
+        "Login",
+        "PhoneNumber"
+      ],
+      "modules": [
+        {
+          "id": "Application",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application.Contracts",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain.Shared",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "EntityFrameworkCore",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi.Client",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        },
+        {
+          "id": "MongoDB",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": false
+        },
+        {
+          "id": "Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "EasyAbp.Abp.AspNetCore.Mvc.UI.Theme",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/Abp.AspNetCore.Mvc.UI.Theme.LYear",
+      "category": "Theme",
+      "desc": "A simple ABP MVC UI theme.",
+      "tags": [
+        "Theme",
+        "LYear"
+      ],
+      "modules": [
+        {
+          "id": "LYear",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "EasyAbp.Abp.Aliyun",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/Abp.Aliyun",
+      "category": "Other",
+      "desc": "专门为 ABP vNext 框架开发的阿里云 SDK 模块.",
+      "tags": [
+        "Other",
+        "Aliyun",
+        "SDK"
+      ],
+      "modules": [
+        {
+          "id": "Common",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": false
+        },
+        {
+          "id": "Sms",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "LiveVideo",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "EasyAbp.Abp.TencentCloud",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/Abp.TencentCloud",
+      "category": "Other",
+      "desc": "专门为 ABP vNext 封装的腾讯云 SDK 模块.",
+      "tags": [
+        "Other",
+        "TencentCloud",
+        "SDK"
+      ],
+      "modules": [
+        {
+          "id": "CAM",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "CDN",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "COS",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "CloudLive",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "CloudMonitor",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Cls",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Common",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": false
+        },
+        {
+          "id": "Sms",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "EasyAbp.Abp.WeChat",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/Abp.WeChat",
+      "category": "WeChat",
+      "desc": "Abp 微信 SDK 模块，包含对微信小程序、公众号、企业微信、开放平台、第三方平台等相关接口封装.",
+      "tags": [
+        "WeChat",
+        "SDK"
+      ],
+      "modules": [
+        {
+          "id": "Common",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": false
+        },
+        {
+          "id": "Common.SharedCache.StackExchangeRedis",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": false
+        },
+        {
+          "id": "MiniProgram",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Official",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Official.HttpApi",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "Pay",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Pay.HttpApi",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "EasyAbp.UniappManagement",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/UniappManagement",
+      "category": "Other",
+      "desc": "实现uni-app的应用版本管理、整包更新、热更新、差量热更新等功能的Abp应用模块",
+      "tags": [
+        "Uniapp"
       ],
       "modules": [
         {
