@@ -972,6 +972,7 @@
       "modules": [
         {
           "id": "Client",
+          "submodule": "Client",
           "defaultTargets": [
             "Application"
           ],
@@ -979,6 +980,7 @@
         },
         {
           "id": "Ip",
+          "submodule": "Ip",
           "defaultTargets": [
             "Application"
           ],
