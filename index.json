@@ -1130,13 +1130,6 @@
             "HttpApi"
           ],
           "default": true
-        },
-        {
-          "id": "Web",
-          "defaultTargets": [
-            "Web"
-          ],
-          "default": true
         }
       ]
     },
