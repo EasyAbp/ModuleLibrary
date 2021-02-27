@@ -825,7 +825,9 @@
         },
         {
           "id": "Application.Contracts.Shared",
-          "defaultTargets": [],
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
           "default": false
         },
         {
@@ -950,7 +952,9 @@
         {
           "id": "Common.Domain.Shared",
           "submodule": "Common",
-          "defaultTargets": [],
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
           "default": false
         }
       ]
