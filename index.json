@@ -121,7 +121,7 @@
           "defaultTargets": [
             "MongoDB"
           ],
-          "default": false
+          "default": true
         },
         {
           "id": "Web",
@@ -557,7 +557,7 @@
           "defaultTargets": [
             "MongoDB"
           ],
-          "default": false
+          "default": true
         },
         {
           "id": "Web",
@@ -633,7 +633,7 @@
           "defaultTargets": [
             "MongoDB"
           ],
-          "default": false
+          "default": true
         },
         {
           "id": "Web",
@@ -779,7 +779,7 @@
           "defaultTargets": [
             "MongoDB"
           ],
-          "default": false
+          "default": true
         },
         {
           "id": "Provider.Mailing",
@@ -1198,7 +1198,7 @@
           "defaultTargets": [
             "MongoDB"
           ],
-          "default": false
+          "default": true
         },
         {
           "id": "Web",
@@ -1274,7 +1274,7 @@
           "defaultTargets": [
             "MongoDB"
           ],
-          "default": false
+          "default": true
         },
         {
           "id": "Web",
@@ -1494,7 +1494,7 @@
           "defaultTargets": [
             "MongoDB"
           ],
-          "default": false
+          "default": true
         },
         {
           "id": "Web",
@@ -1571,7 +1571,7 @@
           "defaultTargets": [
             "MongoDB"
           ],
-          "default": false
+          "default": true
         },
         {
           "id": "Web",
@@ -1697,7 +1697,7 @@
           "defaultTargets": [
             "MongoDB"
           ],
-          "default": false
+          "default": true
         },
         {
           "id": "Web",
@@ -1794,7 +1794,7 @@
           "defaultTargets": [
             "MongoDB"
           ],
-          "default": false
+          "default": true
         },
         {
           "id": "Web",
@@ -1870,7 +1870,7 @@
           "defaultTargets": [
             "MongoDB"
           ],
-          "default": false
+          "default": true
         },
         {
           "id": "Web",
@@ -1949,7 +1949,7 @@
           "defaultTargets": [
             "MongoDB"
           ],
-          "default": false
+          "default": true
         },
         {
           "id": "Web",
@@ -2229,12 +2229,1189 @@
           "defaultTargets": [
             "MongoDB"
           ],
+          "default": true
+        },
+        {
+          "id": "Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "Volo.Abp.PermissionManagement",
+      "org": "Volo",
+      "repo": "https://github.com/abpframework/abp/tree/dev/modules/permission-management",
+      "category": "Infrastructure",
+      "desc": "Used to persist permissions.",
+      "tags": [
+        "Volo",
+        "Permission",
+        "Infrastructure"
+      ],
+      "modules": [
+        {
+          "id": "Domain",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain.Identity",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "MongoDB",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "Blazor",
+          "defaultTargets": [
+            "Blazor"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi.Client",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        },
+        {
+          "id": "EntityFrameworkCore",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application.Contracts",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain.Shared",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "Volo.Abp.IdentityServer",
+      "org": "Volo",
+      "repo": "https://github.com/abpframework/abp/tree/dev/modules/identityserver",
+      "category": "Infrastructure",
+      "desc": "Integrates to IdentityServer4.",
+      "tags": [
+        "Volo",
+        "Identity",
+        "Infrastructure",
+        "Authentication"
+      ],
+      "modules": [
+        {
+          "id": "Domain.Shared",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "EntityFrameworkCore",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain.IdentityServer",
+          "defaultTargets": [
+            "Domain.IdentityServer"
+          ],
+          "default": true
+        },
+        {
+          "id": "MongoDB",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "Volo.Abp.Identity",
+      "org": "Volo",
+      "repo": "https://github.com/abpframework/abp/tree/dev/modules/identity",
+      "category": "Infrastructure",
+      "desc": "Manages organization units, roles, users and their permissions, based on the Microsoft Identity library.",
+      "tags": [
+        "Volo",
+        "Identity",
+        "Infrastructure"
+      ],
+      "modules": [
+        {
+          "id": "Domain",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain.Shared",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "AspNetCore",
+          "defaultTargets": [],
+          "default": false
+        },
+        {
+          "id": "Application.Contracts",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Blazor",
+          "defaultTargets": [
+            "Blazor"
+          ],
+          "default": true
+        },
+        {
+          "id": "Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi.Client",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        },
+        {
+          "id": "MongoDB",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "EntityFrameworkCore",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "Volo.CmsKit",
+      "org": "Volo",
+      "repo": "https://github.com/abpframework/abp/tree/dev/modules/cms-kit",
+      "category": "Content",
+      "desc": "A set of reusable Content Management System features.",
+      "tags": [
+        "Volo",
+        "Content",
+        "CMS"
+      ],
+      "modules": [
+        {
+          "id": "Admin.Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": false
+        },
+        {
+          "id": "Common.Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": false
+        },
+        {
+          "id": "Public.HttpApi.Client",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": false
+        },
+        {
+          "id": "Public.Application",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": false
+        },
+        {
+          "id": "Admin.HttpApi",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": false
+        },
+        {
+          "id": "Public.HttpApi",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": false
+        },
+        {
+          "id": "HttpApi.Client",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        },
+        {
+          "id": "Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        },
+        {
+          "id": "Admin.Application",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": false
+        },
+        {
+          "id": "HttpApi",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "MongoDB",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": true
+        },
+        {
+          "id": "Admin.Application.Contracts",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": false
+        },
+        {
+          "id": "Public.Application.Contracts",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": false
+        },
+        {
+          "id": "Application.Contracts",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "EntityFrameworkCore",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain.Shared",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "Common.Application",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": false
+        },
+        {
+          "id": "Public.Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": false
+        },
+        {
+          "id": "Common.Application.Contracts",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": false
+        },
+        {
+          "id": "Common.HttpApi.Client",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": false
+        },
+        {
+          "id": "Admin.HttpApi.Client",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": false
+        },
+        {
+          "id": "Common.HttpApi",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": false
+        }
+      ]
+    },
+    {
+      "id": "Volo.Abp.BackgroundJobs",
+      "org": "Volo",
+      "repo": "https://github.com/abpframework/abp/tree/dev/modules/background-jobs",
+      "category": "Infrastructure",
+      "desc": "Persist background jobs when using the default background job manager.",
+      "tags": [
+        "Volo",
+        "Infrastructure"
+      ],
+      "modules": [
+        {
+          "id": "Domain",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "EntityFrameworkCore",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain.Shared",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "MongoDB",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "Volo.Docs",
+      "org": "Volo",
+      "repo": "https://github.com/abpframework/abp/tree/dev/modules/docs",
+      "category": "Content",
+      "desc": "Used to create technical documentation website. ABP's own documentation already using this module.",
+      "tags": [
+        "Volo",
+        "Documentation"
+      ],
+      "modules": [
+        {
+          "id": "Application.Contracts",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain.Shared",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "MongoDB",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Admin.Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        },
+        {
+          "id": "Admin.Application",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi.Client",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        },
+        {
+          "id": "Admin.Application.Contracts",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "EntityFrameworkCore",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "Admin.HttpApi",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "Admin.HttpApi.Client",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        },
+        {
+          "id": "Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "Volo.Abp.VirtualFileExplorer",
+      "org": "Volo",
+      "repo": "https://github.com/abpframework/abp/tree/dev/modules/virtual-file-explorer",
+      "category": "Infrastructure",
+      "desc": "Provided a simple UI to view files in virtual file system.",
+      "tags": [
+        "Volo",
+        "File",
+        "Resource",
+        "Infrastructure",
+        "Web"
+      ],
+      "modules": [
+        {
+          "id": "Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "Volo.Blogging",
+      "org": "Volo",
+      "repo": "https://github.com/abpframework/abp/tree/dev/modules/blogging",
+      "category": "Content",
+      "desc": "Used to create fancy blogs. ABP's own blog already using this module.",
+      "tags": [
+        "Volo",
+        "Content",
+        "Blog",
+        "Blogging"
+      ],
+      "modules": [
+        {
+          "id": "Admin.Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain.Shared",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi.Client",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application.Contracts.Shared",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": false
+        },
+        {
+          "id": "Admin.Application",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Admin.HttpApi.Client",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application.Contracts",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        },
+        {
+          "id": "EntityFrameworkCore",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Admin.HttpApi",
+          "defaultTargets": [
+            "Admin.HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "Admin.Application.Contracts",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "MongoDB",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "Volo.Abp.FeatureManagement",
+      "org": "Volo",
+      "repo": "https://github.com/abpframework/abp/tree/dev/modules/feature-management",
+      "category": "Infrastructure",
+      "desc": "Used to persist and manage the features.",
+      "tags": [
+        "Volo",
+        "Infrastructure"
+      ],
+      "modules": [
+        {
+          "id": "Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi.Client",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "EntityFrameworkCore",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application.Contracts",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain.Shared",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "MongoDB",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": true
+        },
+        {
+          "id": "Blazor",
+          "defaultTargets": [
+            "Blazor"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "Volo.Abp.Users",
+      "org": "Volo",
+      "repo": "https://github.com/abpframework/abp/tree/dev/modules/users",
+      "category": "Infrastructure",
+      "desc": "Abstract users, so other modules can depend on this module instead of the Identity module.",
+      "tags": [
+        "Volo",
+        "Identity",
+        "Infrastructure"
+      ],
+      "modules": [
+        {
+          "id": "Domain",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "MongoDB",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": true
+        },
+        {
+          "id": "Abstractions",
+          "defaultTargets": [],
+          "default": false
+        },
+        {
+          "id": "EntityFrameworkCore",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain.Shared",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "Volo.Abp.Account",
+      "org": "Volo",
+      "repo": "https://github.com/abpframework/abp/tree/dev/modules/account",
+      "category": "Infrastructure",
+      "desc": "Provides UI for the account management and allows user to login/register to the application.",
+      "tags": [
+        "Volo",
+        "Identity",
+        "Infrastructure"
+      ],
+      "modules": [
+        {
+          "id": "Application",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Web.IdentityServer",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "Blazor",
+          "defaultTargets": [
+            "Blazor"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application.Contracts",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi.Client",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "Volo.Abp.BlobStoring.Database",
+      "org": "Volo",
+      "repo": "https://github.com/abpframework/abp/tree/dev/modules/blob-storing-database",
+      "category": "Resource",
+      "desc": "",
+      "tags": [
+        "Volo",
+        "BlobStoring",
+        "Resource"
+      ],
+      "modules": [
+        {
+          "id": "EntityFrameworkCore",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain.Shared",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "MongoDB",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "Volo.Abp.SettingManagement",
+      "org": "Volo",
+      "repo": "https://github.com/abpframework/abp/tree/dev/modules/setting-management",
+      "category": "Infrastructure",
+      "desc": "Used to persist and manage the settings.",
+      "tags": [
+        "Volo",
+        "Infrastructure",
+        "Setting"
+      ],
+      "modules": [
+        {
+          "id": "EntityFrameworkCore",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application.Contracts",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain.Shared",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi.Client",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        },
+        {
+          "id": "Blazor",
+          "defaultTargets": [
+            "Blazor"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "MongoDB",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": true
+        },
+        {
+          "id": "Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "Volo.Abp.AuditLogging",
+      "org": "Volo",
+      "repo": "https://github.com/abpframework/abp/tree/dev/modules/audit-logging",
+      "category": "Infrastructure",
+      "desc": "Persists audit logs to a database.",
+      "tags": [
+        "Volo",
+        "Logging",
+        "Infrastructure"
+      ],
+      "modules": [
+        {
+          "id": "MongoDB",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain.Shared",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "EntityFrameworkCore",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "Volo.ClientSimulation",
+      "org": "Volo",
+      "repo": "https://github.com/abpframework/abp/tree/dev/modules/client-simulation",
+      "category": "Test",
+      "desc": "A simple web UI to stress test HTTP APIs by simulating concurrent clients.",
+      "tags": [
+        "Volo",
+        "Test"
+      ],
+      "modules": [
+        {
+          "id": "",
+          "defaultTargets": [],
           "default": false
         },
         {
           "id": "Web",
           "defaultTargets": [
             "Web"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "Volo.Abp.TenantManagement",
+      "org": "Volo",
+      "repo": "https://github.com/abpframework/abp/tree/dev/modules/tenant-management",
+      "category": "Infrastructure",
+      "desc": "Used to persist and manage the features.",
+      "tags": [
+        "Volo",
+        "Tenant",
+        "Infrastructure"
+      ],
+      "modules": [
+        {
+          "id": "HttpApi",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application.Contracts",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "MongoDB",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": true
+        },
+        {
+          "id": "EntityFrameworkCore",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain.Shared",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi.Client",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "Blazor",
+          "defaultTargets": [
+            "Blazor"
           ],
           "default": true
         }
