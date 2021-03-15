@@ -2920,7 +2920,7 @@
         {
           "id": "Admin.HttpApi",
           "defaultTargets": [
-            "Admin.HttpApi"
+            "HttpApi"
           ],
           "default": true
         },
