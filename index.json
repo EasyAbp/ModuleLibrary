@@ -2117,7 +2117,7 @@
         },
         {
           "id": "Common.SharedCache.StackExchangeRedis",
-          "submodule": "Common",
+          "submodule": "Common.SharedCache.StackExchangeRedis",
           "defaultTargets": [
             "Application"
           ],
