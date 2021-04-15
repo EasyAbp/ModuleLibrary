@@ -1003,30 +1003,9 @@
         {
           "id": "",
           "defaultTargets": [
-            "Application"
+            "Web"
           ],
           "default": true
-        },
-        {
-          "id": "MySql",
-          "defaultTargets": [
-            "Application"
-          ],
-          "default": false
-        },
-        {
-          "id": "PostgreSql",
-          "defaultTargets": [
-            "Application"
-          ],
-          "default": false
-        },
-        {
-          "id": "SqlServer",
-          "defaultTargets": [
-            "Application"
-          ],
-          "default": false
         }
       ]
     },
