@@ -1936,6 +1936,22 @@
             "Web"
           ],
           "default": true
+        },
+        {
+          "id": "Provider.Default",
+          "submodule": "Provider.Default",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Provider.TencentCloud",
+          "submodule": "Provider.TencentCloud",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": false
         }
       ]
     },
