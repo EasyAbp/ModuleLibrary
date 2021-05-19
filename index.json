@@ -203,6 +203,14 @@
           "default": false
         },
         {
+          "id": "Orders.Plugins.Coupons",
+          "submodule": "Orders.Plugins.Coupons",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": false
+        },
+        {
           "id": "Payments.Application",
           "submodule": "Payments",
           "defaultTargets": [
