@@ -715,6 +715,75 @@
       ]
     },
     {
+      "id": "EasyAbp.Abp.EntityUi",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/Abp.EntityUi",
+      "category": "Infrastructure",
+      "desc": "An abp module that dynamically generates management UI for entities in runtime.",
+      "tags": [
+        "Infrastructure",
+        "Entity"
+      ],
+      "modules": [
+        {
+          "id": "Application",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application.Contracts",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain.Shared",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "EntityFrameworkCore",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi.Client",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        },
+        {
+          "id": "Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
       "id": "EasyAbp.NotificationService",
       "org": "EasyAbp",
       "repo": "https://github.com/EasyAbp/NotificationService",
