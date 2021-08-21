@@ -785,6 +785,41 @@
       ]
     },
     {
+      "id": "EasyAbp.Abp.EntityUi.DynamicEntity",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/Abp.EntityUi",
+      "category": "Infrastructure",
+      "desc": "Make your Entity UI module support dynamic entities.",
+      "tags": [
+        "Infrastructure",
+        "Entity",
+        "Dynamic"
+      ],
+      "modules": [
+        {
+          "id": "Domain",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain.Shared",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
       "id": "EasyAbp.Abp.DynamicEntity",
       "org": "EasyAbp",
       "repo": "https://github.com/EasyAbp/Abp.DynamicEntity",
