@@ -781,41 +781,30 @@
             "Web"
           ],
           "default": true
-        }
-      ]
-    },
-    {
-      "id": "EasyAbp.Abp.EntityUi.DynamicEntity",
-      "org": "EasyAbp",
-      "repo": "https://github.com/EasyAbp/Abp.EntityUi",
-      "category": "Infrastructure",
-      "desc": "Make your Entity UI module support dynamic entities.",
-      "tags": [
-        "Infrastructure",
-        "Entity",
-        "Dynamic"
-      ],
-      "modules": [
+        },
         {
-          "id": "Domain",
+          "id": "DynamicEntity.Domain",
+          "submodule": "DynamicEntity",
           "defaultTargets": [
             "Domain"
           ],
-          "default": true
+          "default": false
         },
         {
-          "id": "Domain.Shared",
+          "id": "DynamicEntity.Domain.Shared",
+          "submodule": "DynamicEntity",
           "defaultTargets": [
             "Domain.Shared"
           ],
-          "default": true
+          "default": false
         },
         {
-          "id": "Web",
+          "id": "DynamicEntity.Web",
+          "submodule": "DynamicEntity",
           "defaultTargets": [
             "Web"
           ],
-          "default": true
+          "default": false
         }
       ]
     },
@@ -1119,6 +1108,78 @@
       ],
       "modules": [
         {
+          "id": "Common.Application",
+          "submodule": "Common",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Common.Application.Contracts",
+          "submodule": "Common",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "Common.Domain",
+          "submodule": "Common",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "Common.Domain.Shared",
+          "submodule": "Common",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "Common.EntityFrameworkCore",
+          "submodule": "Common",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "Common.HttpApi",
+          "submodule": "Common",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "Common.HttpApi.Client",
+          "submodule": "Common",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        },
+        {
+          "id": "Common.MongoDB",
+          "submodule": "Common",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": true
+        },
+        {
+          "id": "Common.Web",
+          "submodule": "Common",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        },
+        {
           "id": "MiniPrograms.Application",
           "submodule": "MiniPrograms",
           "defaultTargets": [
@@ -1180,7 +1241,7 @@
           "defaultTargets": [
             "MongoDB"
           ],
-          "default": false
+          "default": true
         },
         {
           "id": "MiniPrograms.Web",
@@ -1189,14 +1250,6 @@
             "Web"
           ],
           "default": true
-        },
-        {
-          "id": "Common.Domain.Shared",
-          "submodule": "Common",
-          "defaultTargets": [
-            "Domain.Shared"
-          ],
-          "default": false
         }
       ]
     },
