@@ -936,6 +936,84 @@
       ]
     },
     {
+      "id": "EasyAbp.Abp.DynamicPermission",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/Abp.DynamicPermission",
+      "category": "Infrastructure",
+      "desc": "An ABP module that allows you to define and grant dynamic permissions in runtime.",
+      "tags": [
+        "Infrastructure",
+        "Permission",
+        "Authorization",
+        "Dynamic"
+      ],
+      "modules": [
+        {
+          "id": "Application",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application.Contracts",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain.Shared",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "EntityFrameworkCore",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi.Client",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        },
+        {
+          "id": "MongoDB",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": true
+        },
+        {
+          "id": "Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
       "id": "EasyAbp.NotificationService",
       "org": "EasyAbp",
       "repo": "https://github.com/EasyAbp/NotificationService",
