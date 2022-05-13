@@ -1536,6 +1536,81 @@
       ]
     },
     {
+      "id": "EasyAbp.Abp.GraphQL",
+      "org": "EasyAbp",
+      "repo": "https://www.github.com/EasyAbp/Abp.GraphQL",
+      "category": "Infrastructure",
+      "desc": "An ABP module that allows using application services by GraphQL. It also accepted custom schemes and types you defined.",
+      "tags": [
+        "Infrastructure"
+      ],
+      "modules": [
+        {
+          "id": "Application",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application.Contracts",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi.Client",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        },
+        {
+          "id": "Provider.GraphQLDotnet",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Web.Altair",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        },
+        {
+          "id": "Web.GraphiQL",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        },
+        {
+          "id": "Web.Playground",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        },
+        {
+          "id": "Web.Voyager",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
       "id": "EasyAbp.Abp.RelatedDtoLoader",
       "org": "EasyAbp",
       "repo": "https://github.com/EasyAbp/Abp.RelatedDtoLoader",
@@ -2482,7 +2557,7 @@
       ]
     },
     {
-      "id": "EasyAbp.Abp.AspNetCore.Mvc.UI.Theme",
+      "id": "EasyAbp.Abp.AspNetCore.Mvc.UI.Theme.LYear",
       "org": "EasyAbp",
       "repo": "https://github.com/EasyAbp/Abp.AspNetCore.Mvc.UI.Theme.LYear",
       "category": "Theme",
