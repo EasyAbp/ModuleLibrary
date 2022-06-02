@@ -1515,6 +1515,42 @@
       ]
     },
     {
+      "id": "EasyAbp.Abp.EventBus.Boxes.Dtm",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/Abp.EventBus.Boxes.Dtm",
+      "category": "Infrastructure",
+      "desc": "The DTM implementation module of ABP distributed event boxes.",
+      "tags": [
+        "Infrastructure",
+        "EventBus",
+        "Outbox",
+        "Inbox"
+      ],
+      "modules": [
+        {
+          "id": "Grpc",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        },
+        {
+          "id": "EntityFrameworkCore",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "MongoDB",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
       "id": "EasyAbp.Abp.EventBus.CAP",
       "org": "EasyAbp",
       "repo": "https://github.com/EasyAbp/Abp.EventBus.CAP",
