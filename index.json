@@ -796,7 +796,7 @@
       "id": "EasyAbp.Abp.EntityUi",
       "org": "EasyAbp",
       "repo": "https://github.com/EasyAbp/Abp.EntityUi",
-      "category": "Infrastructure",
+      "category": "Dynamic",
       "desc": "An abp module that dynamically generates management UI for entities in runtime.",
       "tags": [
         "Infrastructure",
@@ -890,7 +890,7 @@
       "id": "EasyAbp.Abp.DynamicEntity",
       "org": "EasyAbp",
       "repo": "https://github.com/EasyAbp/Abp.DynamicEntity",
-      "category": "Infrastructure",
+      "category": "Dynamic",
       "desc": "An ABP module that can dynamically create entities at runtime and perform CRUD operations like normal entities.",
       "tags": [
         "Infrastructure",
@@ -967,7 +967,7 @@
       "id": "EasyAbp.Abp.DynamicQuery",
       "org": "EasyAbp",
       "repo": "https://github.com/EasyAbp/Abp.DynamicQuery",
-      "category": "Infrastructure",
+      "category": "Dynamic",
       "desc": "An ABP module helps you quickly implement dynamic queries.",
       "tags": [
         "Infrastructure",
@@ -1017,7 +1017,7 @@
       "id": "EasyAbp.Abp.DynamicMenu",
       "org": "EasyAbp",
       "repo": "https://github.com/EasyAbp/Abp.DynamicMenu",
-      "category": "Infrastructure",
+      "category": "Dynamic",
       "desc": "An abp module that dynamically creates menu items for ABP UI projects in runtime.",
       "tags": [
         "Infrastructure",
@@ -1094,7 +1094,7 @@
       "id": "EasyAbp.Abp.DynamicPermission",
       "org": "EasyAbp",
       "repo": "https://github.com/EasyAbp/Abp.DynamicPermission",
-      "category": "Infrastructure",
+      "category": "Dynamic",
       "desc": "An ABP module that allows you to define and grant dynamic permissions in runtime.",
       "tags": [
         "Infrastructure",
@@ -1527,6 +1527,11 @@
         "Inbox"
       ],
       "modules": [
+        {
+          "id": "",
+          "defaultTargets": [],
+          "default": false
+        },
         {
           "id": "Grpc",
           "defaultTargets": [
@@ -2312,6 +2317,38 @@
           "id": "MongoDB",
           "defaultTargets": [
             "MongoDB"
+          ],
+          "default": true
+        },
+        {
+          "id": "Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "EasyAbp.Elsa",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/Elsa",
+      "category": "Dynamic",
+      "desc": "An Abp module integrates Elsa workflows and provides some preset Elsa activities for the ABP framework.",
+      "tags": [
+        "Dynamic",
+        "Workflow"
+      ],
+      "modules": [
+        {
+          "id": "Shared",
+          "defaultTargets": [],
+          "default": false
+        },
+        {
+          "id": "Server.Api",
+          "defaultTargets": [
+            "Web"
           ],
           "default": true
         },
