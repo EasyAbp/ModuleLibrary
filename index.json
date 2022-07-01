@@ -3042,7 +3042,14 @@
           "default": true
         },
         {
-          "id": "Blazor",
+          "id": "Blazor.Server",
+          "defaultTargets": [
+            "Blazor.Server"
+          ],
+          "default": true
+        },
+        {
+          "id": "Blazor.WebAssembly",
           "defaultTargets": [
             "Blazor"
           ],
@@ -3188,7 +3195,14 @@
           "default": true
         },
         {
-          "id": "Blazor",
+          "id": "Blazor.Server",
+          "defaultTargets": [
+            "Blazor.Server"
+          ],
+          "default": true
+        },
+        {
+          "id": "Blazor.WebAssembly",
           "defaultTargets": [
             "Blazor"
           ],
@@ -3801,7 +3815,14 @@
           "default": true
         },
         {
-          "id": "Blazor",
+          "id": "Blazor.Server",
+          "defaultTargets": [
+            "Blazor.Server"
+          ],
+          "default": true
+        },
+        {
+          "id": "Blazor.WebAssembly",
           "defaultTargets": [
             "Blazor"
           ],
@@ -3897,7 +3918,14 @@
           "default": true
         },
         {
-          "id": "Blazor",
+          "id": "Blazor.Server",
+          "defaultTargets": [
+            "Blazor.Server"
+          ],
+          "default": true
+        },
+        {
+          "id": "Blazor.WebAssembly",
           "defaultTargets": [
             "Blazor"
           ],
@@ -4016,7 +4044,14 @@
           "default": true
         },
         {
-          "id": "Blazor",
+          "id": "Blazor.Server",
+          "defaultTargets": [
+            "Blazor.Server"
+          ],
+          "default": true
+        },
+        {
+          "id": "Blazor.WebAssembly",
           "defaultTargets": [
             "Blazor"
           ],
@@ -4195,7 +4230,14 @@
           "default": true
         },
         {
-          "id": "Blazor",
+          "id": "Blazor.Server",
+          "defaultTargets": [
+            "Blazor.Server"
+          ],
+          "default": true
+        },
+        {
+          "id": "Blazor.WebAssembly",
           "defaultTargets": [
             "Blazor"
           ],
