@@ -1262,6 +1262,98 @@
       ]
     },
     {
+      "id": "EasyAbp.BookingService",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/BookingService",
+      "category": "Message",
+      "desc": "An ABP application module that allows users to book time for people or assets.",
+      "tags": [
+        "Business",
+        "Asset",
+        "Booking",
+        "Sale"
+      ],
+      "modules": [
+        {
+          "id": "Application",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application.Contracts",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain.Shared",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "EntityFrameworkCore",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi.Client",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        },
+        {
+          "id": "Blazor.Server",
+          "defaultTargets": [
+            "Blazor.Server"
+          ],
+          "default": true
+        },
+        {
+          "id": "Blazor.WebAssembly",
+          "defaultTargets": [
+            "Blazor"
+          ],
+          "default": true
+        },
+        {
+          "id": "Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        },
+        {
+          "id": "MongoDB",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
       "id": "EasyAbp.Abp.DataDictionary",
       "org": "EasyAbp",
       "repo": "https://github.com/EasyAbp/Abp.DataDictionary",
