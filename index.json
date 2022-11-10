@@ -1169,6 +1169,97 @@
       ]
     },
     {
+      "id": "EasyAbp.DynamicForm",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/Abp.DynamicForm",
+      "category": "Dynamic",
+      "desc": "An ABP module helps users to define and use dynamic forms at runtime.",
+      "tags": [
+        "Infrastructure",
+        "Form",
+        "Dynamic"
+      ],
+      "modules": [
+        {
+          "id": "Application",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application.Contracts",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain.Core",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": false
+        },
+        {
+          "id": "Domain.Shared",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "EntityFrameworkCore",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "EntityFrameworkCore.Shared",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": false
+        },
+        {
+          "id": "HttpApi",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi.Client",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        },
+        {
+          "id": "MongoDB",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": true
+        },
+        {
+          "id": "Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
       "id": "EasyAbp.NotificationService",
       "org": "EasyAbp",
       "repo": "https://github.com/EasyAbp/NotificationService",
