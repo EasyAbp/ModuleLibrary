@@ -1617,7 +1617,23 @@
           "defaultTargets": [
             "Domain"
           ],
+          "default": false
+        },
+        {
+          "id": "MiniPrograms.Domain.OpenIddict",
+          "submodule": "MiniPrograms",
+          "defaultTargets": [
+            "Domain"
+          ],
           "default": true
+        },
+        {
+          "id": "MiniPrograms.Domain.Ids4",
+          "submodule": "MiniPrograms",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": false
         },
         {
           "id": "MiniPrograms.Domain.Shared",
