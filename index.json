@@ -211,6 +211,22 @@
           "default": false
         },
         {
+          "id": "Orders.Plugins.FlashSales.Application",
+          "submodule": "Orders.Plugins.FlashSales",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": false
+        },
+        {
+          "id": "Orders.Booking.Application",
+          "submodule": "Orders.Booking",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": false
+        },
+        {
           "id": "Payments.Application",
           "submodule": "Payments",
           "defaultTargets": [
@@ -279,6 +295,14 @@
           "submodule": "Payments",
           "defaultTargets": [
             "Web"
+          ],
+          "default": false
+        },
+        {
+          "id": "Payments.Booking.Application",
+          "submodule": "Payments.Booking",
+          "defaultTargets": [
+            "Application"
           ],
           "default": false
         },
@@ -423,6 +447,60 @@
           "submodule": "Products",
           "defaultTargets": [
             "Web"
+          ],
+          "default": false
+        },
+        {
+          "id": "Products.Plugins.FlashSales.Abstractions",
+          "submodule": "Products.Plugins.FlashSales",
+          "defaultTargets": [],
+          "default": false
+        },
+        {
+          "id": "Products.Plugins.FlashSales.Application.Contracts",
+          "submodule": "Products.Plugins.FlashSales",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": false
+        },
+        {
+          "id": "Products.Plugins.FlashSales.Application",
+          "submodule": "Products.Plugins.FlashSales",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": false
+        },
+        {
+          "id": "Products.Plugins.FlashSales.HttpApi.Client",
+          "submodule": "Products.Plugins.FlashSales",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": false
+        },
+        {
+          "id": "Products.Plugins.FlashSales.HttpApi",
+          "submodule": "Products.Plugins.FlashSales",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": false
+        },
+        {
+          "id": "Products.DaprActorsInventory.Domain",
+          "submodule": "Products.DaprActorsInventory",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": false
+        },
+        {
+          "id": "Products.OrleansGrainsInventory.Domain",
+          "submodule": "Products.OrleansGrainsInventory",
+          "defaultTargets": [
+            "Domain"
           ],
           "default": false
         },
@@ -577,6 +655,82 @@
       ]
     },
     {
+      "id": "EasyAbp.EShop.Plugins.Booking",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/EShop",
+      "category": "Business",
+      "desc": "An abp application module group that provides basic e-shop service.",
+      "tags": [
+        "Business",
+        "Sale"
+      ],
+      "modules": [
+        {
+          "id": "Application",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application.Contracts",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain.Shared",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "EntityFrameworkCore",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi.Client",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        },
+        {
+          "id": "MongoDB",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": true
+        },
+        {
+          "id": "Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
       "id": "EasyAbp.EShop.Plugins.Coupons",
       "org": "EasyAbp",
       "repo": "https://github.com/EasyAbp/EShop",
@@ -649,6 +803,142 @@
             "Web"
           ],
           "default": true
+        }
+      ]
+    },
+    {
+      "id": "EasyAbp.EShop.Plugins.FlashSales",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/EShop",
+      "category": "Business",
+      "desc": "An abp application module group that provides basic e-shop service.",
+      "tags": [
+        "Business",
+        "Sale"
+      ],
+      "modules": [
+        {
+          "id": "Application",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application.Contracts",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain.Shared",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "EntityFrameworkCore",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi.Client",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        },
+        {
+          "id": "MongoDB",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": true
+        },
+        {
+          "id": "Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
+      "id": "EasyAbp.EShop.Plugins.Inventories.DaprActors",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/EShop",
+      "category": "Business",
+      "desc": "An abp application module group that provides basic e-shop service.",
+      "tags": [
+        "Business",
+        "Sale"
+      ],
+      "modules": [
+        {
+          "id": "Abstractions",
+          "defaultTargets": [],
+          "default": false
+        },
+        {
+          "id": "AspNetCore",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        },
+        {
+          "id": "",
+          "defaultTargets": [],
+          "default": false
+        }
+      ]
+    },
+    {
+      "id": "EasyAbp.EShop.Plugins.Inventories.OrleansGrains",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/EShop",
+      "category": "Business",
+      "desc": "An abp application module group that provides basic e-shop service.",
+      "tags": [
+        "Business",
+        "Sale"
+      ],
+      "modules": [
+        {
+          "id": "Abstractions",
+          "defaultTargets": [],
+          "default": false
+        },
+        {
+          "id": "Silo",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        },
+        {
+          "id": "",
+          "defaultTargets": [],
+          "default": false
         }
       ]
     },
@@ -1343,17 +1633,237 @@
           "default": true
         },
         {
+          "id": "Provider.Mailing.Abstractions",
+          "submodule": "Provider.Mailing",
+          "defaultTargets": [],
+          "default": false
+        },
+        {
+          "id": "Provider.PrivateMessaing",
+          "submodule": "Provider.PrivateMessaing",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": false
+        },
+        {
+          "id": "Provider.PrivateMessaing.Abstractions",
+          "submodule": "Provider.PrivateMessaing",
+          "defaultTargets": [],
+          "default": false
+        },
+        {
           "id": "Provider.Sms",
           "submodule": "Provider.Sms",
           "defaultTargets": [
             "Application"
           ],
           "default": false
+        },
+        {
+          "id": "Provider.Sms.Abstractions",
+          "submodule": "Provider.Sms",
+          "defaultTargets": [],
+          "default": false
+        },
+        {
+          "id": "Provider.WeChatOfficial",
+          "submodule": "Provider.WeChatOfficial",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": false
+        },
+        {
+          "id": "Provider.WeChatOfficial.Abstractions",
+          "submodule": "Provider.WeChatOfficial",
+          "defaultTargets": [],
+          "default": false
         }
       ]
     },
     {
       "id": "EasyAbp.BookingService",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/BookingService",
+      "category": "Message",
+      "desc": "An ABP application module that allows users to book time for people or assets.",
+      "tags": [
+        "Business",
+        "Asset",
+        "Booking",
+        "Sale"
+      ],
+      "modules": [
+        {
+          "id": "Application",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application.Contracts",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain.Shared",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "EntityFrameworkCore",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi.Client",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        },
+        {
+          "id": "Blazor.Server",
+          "defaultTargets": [
+            "Blazor.Server"
+          ],
+          "default": true
+        },
+        {
+          "id": "Blazor.WebAssembly",
+          "defaultTargets": [
+            "Blazor"
+          ],
+          "default": true
+        },
+        {
+          "id": "Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        },
+        {
+          "id": "MongoDB",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": true
+        },
+        {
+          "id": "Common.Application",
+          "submodule": "Common",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": false
+        },
+        {
+          "id": "Common.Application.Contracts",
+          "submodule": "Common",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": false
+        },
+        {
+          "id": "Common.Domain",
+          "submodule": "Common",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": false
+        },
+        {
+          "id": "Common.Domain.Shared",
+          "submodule": "Common",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": false
+        },
+        {
+          "id": "Common.EntityFrameworkCore",
+          "submodule": "Common",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": false
+        },
+        {
+          "id": "Common.HttpApi",
+          "submodule": "Common",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": false
+        },
+        {
+          "id": "Common.HttpApi.Client",
+          "submodule": "Common",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": false
+        },
+        {
+          "id": "Common.Blazor.Server",
+          "submodule": "Common",
+          "defaultTargets": [
+            "Blazor.Server"
+          ],
+          "default": false
+        },
+        {
+          "id": "Common.Blazor.WebAssembly",
+          "submodule": "Common",
+          "defaultTargets": [
+            "Blazor"
+          ],
+          "default": false
+        },
+        {
+          "id": "Common.Web",
+          "submodule": "Common",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": false
+        },
+        {
+          "id": "Common.MongoDB",
+          "submodule": "Common",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": false
+        }
+      ]
+    },
+    {
+      "id": "EasyAbp.BookingService.Orleans",
       "org": "EasyAbp",
       "repo": "https://github.com/EasyAbp/BookingService",
       "category": "Message",
