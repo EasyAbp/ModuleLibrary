@@ -203,30 +203,6 @@
           "default": false
         },
         {
-          "id": "Orders.Plugins.Coupons",
-          "submodule": "Orders.Plugins.Coupons",
-          "defaultTargets": [
-            "Application"
-          ],
-          "default": false
-        },
-        {
-          "id": "Orders.Plugins.FlashSales.Application",
-          "submodule": "Orders.Plugins.FlashSales",
-          "defaultTargets": [
-            "Application"
-          ],
-          "default": false
-        },
-        {
-          "id": "Orders.Booking.Application",
-          "submodule": "Orders.Booking",
-          "defaultTargets": [
-            "Application"
-          ],
-          "default": false
-        },
-        {
           "id": "Payments.Application",
           "submodule": "Payments",
           "defaultTargets": [
@@ -295,14 +271,6 @@
           "submodule": "Payments",
           "defaultTargets": [
             "Web"
-          ],
-          "default": false
-        },
-        {
-          "id": "Payments.Booking.Application",
-          "submodule": "Payments.Booking",
-          "defaultTargets": [
-            "Application"
           ],
           "default": false
         },
@@ -447,60 +415,6 @@
           "submodule": "Products",
           "defaultTargets": [
             "Web"
-          ],
-          "default": false
-        },
-        {
-          "id": "Products.Plugins.FlashSales.Abstractions",
-          "submodule": "Products.Plugins.FlashSales",
-          "defaultTargets": [],
-          "default": false
-        },
-        {
-          "id": "Products.Plugins.FlashSales.Application.Contracts",
-          "submodule": "Products.Plugins.FlashSales",
-          "defaultTargets": [
-            "Application.Contracts"
-          ],
-          "default": false
-        },
-        {
-          "id": "Products.Plugins.FlashSales.Application",
-          "submodule": "Products.Plugins.FlashSales",
-          "defaultTargets": [
-            "Application"
-          ],
-          "default": false
-        },
-        {
-          "id": "Products.Plugins.FlashSales.HttpApi.Client",
-          "submodule": "Products.Plugins.FlashSales",
-          "defaultTargets": [
-            "HttpApi.Client"
-          ],
-          "default": false
-        },
-        {
-          "id": "Products.Plugins.FlashSales.HttpApi",
-          "submodule": "Products.Plugins.FlashSales",
-          "defaultTargets": [
-            "HttpApi"
-          ],
-          "default": false
-        },
-        {
-          "id": "Products.DaprActorsInventory.Domain",
-          "submodule": "Products.DaprActorsInventory",
-          "defaultTargets": [
-            "Domain"
-          ],
-          "default": false
-        },
-        {
-          "id": "Products.OrleansGrainsInventory.Domain",
-          "submodule": "Products.OrleansGrainsInventory",
-          "defaultTargets": [
-            "Domain"
           ],
           "default": false
         },
@@ -803,6 +717,15 @@
             "Web"
           ],
           "default": true
+        },
+        {
+          "id": "Orders.Plugins.Coupons",
+          "groupId": "EasyAbp.EShop",
+          "submodule": "Orders.Plugins.Coupons",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
         }
       ]
     },
@@ -879,6 +802,58 @@
             "Web"
           ],
           "default": true
+        },
+        {
+          "id": "Orders.Plugins.FlashSales.Application",
+          "groupId": "EasyAbp.EShop",
+          "submodule": "Orders.Plugins.FlashSales",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Products.Plugins.FlashSales.Abstractions",
+          "groupId": "EasyAbp.EShop",
+          "submodule": "Products.Plugins.FlashSales",
+          "defaultTargets": [],
+          "default": false
+        },
+        {
+          "id": "Products.Plugins.FlashSales.Application.Contracts",
+          "groupId": "EasyAbp.EShop",
+          "submodule": "Products.Plugins.FlashSales",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "Products.Plugins.FlashSales.Application",
+          "groupId": "EasyAbp.EShop",
+          "submodule": "Products.Plugins.FlashSales",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Products.Plugins.FlashSales.HttpApi.Client",
+          "groupId": "EasyAbp.EShop",
+          "submodule": "Products.Plugins.FlashSales",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        },
+        {
+          "id": "Products.Plugins.FlashSales.HttpApi",
+          "groupId": "EasyAbp.EShop",
+          "submodule": "Products.Plugins.FlashSales",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
         }
       ]
     },
@@ -909,6 +884,15 @@
           "id": "",
           "defaultTargets": [],
           "default": false
+        },
+        {
+          "id": "Products.DaprActorsInventory.Domain",
+          "groupId": "EasyAbp.EShop",
+          "submodule": "Products.DaprActorsInventory",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
         }
       ]
     },
@@ -939,6 +923,15 @@
           "id": "",
           "defaultTargets": [],
           "default": false
+        },
+        {
+          "id": "Products.OrleansGrainsInventory.Domain",
+          "groupId": "EasyAbp.EShop",
+          "submodule": "Products.OrleansGrainsInventory",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
         }
       ]
     },
@@ -1773,6 +1766,24 @@
           "default": true
         },
         {
+          "id": "Orders.Booking.Application",
+          "groupId": "EasyAbp.EShop",
+          "submodule": "Orders.Booking",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Payments.Booking.Application",
+          "groupId": "EasyAbp.EShop",
+          "submodule": "Payments.Booking",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
           "id": "Common.Application",
           "submodule": "Common",
           "defaultTargets": [
@@ -1949,6 +1960,24 @@
           "id": "MongoDB",
           "defaultTargets": [
             "MongoDB"
+          ],
+          "default": true
+        },
+        {
+          "id": "Orders.Booking.Application",
+          "groupId": "EasyAbp.EShop",
+          "submodule": "Orders.Booking",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Payments.Booking.Application",
+          "groupId": "EasyAbp.EShop",
+          "submodule": "Payments.Booking",
+          "defaultTargets": [
+            "Application"
           ],
           "default": true
         }
