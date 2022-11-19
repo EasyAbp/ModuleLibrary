@@ -3305,7 +3305,21 @@
           "defaultTargets": [
             "Domain"
           ],
+          "default": false
+        },
+        {
+          "id": "Domain.OpenIddict",
+          "defaultTargets": [
+            "Domain"
+          ],
           "default": true
+        },
+        {
+          "id": "Domain.Ids4",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": false
         },
         {
           "id": "Domain.Shared",
