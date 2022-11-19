@@ -3368,26 +3368,6 @@
       ]
     },
     {
-      "id": "EasyAbp.Abp.AspNetCore.Mvc.UI.Theme.LYear",
-      "org": "EasyAbp",
-      "repo": "https://github.com/EasyAbp/Abp.AspNetCore.Mvc.UI.Theme.LYear",
-      "category": "Theme",
-      "desc": "A simple ABP MVC UI theme.",
-      "tags": [
-        "Theme",
-        "LYear"
-      ],
-      "modules": [
-        {
-          "id": "LYear",
-          "defaultTargets": [
-            "Web"
-          ],
-          "default": true
-        }
-      ]
-    },
-    {
       "id": "EasyAbp.Abp.Aliyun",
       "org": "EasyAbp",
       "repo": "https://github.com/EasyAbp/Abp.Aliyun",
