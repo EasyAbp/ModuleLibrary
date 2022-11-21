@@ -3114,7 +3114,7 @@
         {
           "id": "",
           "defaultTargets": [
-            "Application"
+            "Web"
           ],
           "default": true
         }
