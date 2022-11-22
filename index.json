@@ -1621,7 +1621,7 @@
           "id": "Provider.Mailing",
           "submodule": "Provider.Mailing",
           "defaultTargets": [
-            "Application"
+            "Domain"
           ],
           "default": true
         },
@@ -1635,7 +1635,7 @@
           "id": "Provider.PrivateMessaing",
           "submodule": "Provider.PrivateMessaing",
           "defaultTargets": [
-            "Application"
+            "Domain"
           ],
           "default": false
         },
@@ -1649,7 +1649,7 @@
           "id": "Provider.Sms",
           "submodule": "Provider.Sms",
           "defaultTargets": [
-            "Application"
+            "Domain"
           ],
           "default": false
         },
@@ -1663,7 +1663,7 @@
           "id": "Provider.WeChatOfficial",
           "submodule": "Provider.WeChatOfficial",
           "defaultTargets": [
-            "Application"
+            "Domain"
           ],
           "default": false
         },
