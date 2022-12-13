@@ -2221,6 +2221,78 @@
             "Web"
           ],
           "default": true
+        },
+        {
+          "id": "ThirdPartyPlatforms.Application",
+          "submodule": "ThirdPartyPlatforms",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": false
+        },
+        {
+          "id": "ThirdPartyPlatforms.Application.Contracts",
+          "submodule": "ThirdPartyPlatforms",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": false
+        },
+        {
+          "id": "ThirdPartyPlatforms.Domain",
+          "submodule": "ThirdPartyPlatforms",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": false
+        },
+        {
+          "id": "ThirdPartyPlatforms.Domain.Shared",
+          "submodule": "ThirdPartyPlatforms",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": false
+        },
+        {
+          "id": "ThirdPartyPlatforms.EntityFrameworkCore",
+          "submodule": "ThirdPartyPlatforms",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": false
+        },
+        {
+          "id": "ThirdPartyPlatforms.HttpApi",
+          "submodule": "ThirdPartyPlatforms",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": false
+        },
+        {
+          "id": "ThirdPartyPlatforms.HttpApi.Client",
+          "submodule": "ThirdPartyPlatforms",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": false
+        },
+        {
+          "id": "ThirdPartyPlatforms.MongoDB",
+          "submodule": "ThirdPartyPlatforms",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": false
+        },
+        {
+          "id": "ThirdPartyPlatforms.Web",
+          "submodule": "ThirdPartyPlatforms",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": false
         }
       ]
     },
@@ -3563,6 +3635,22 @@
             "HttpApi"
           ],
           "default": true
+        },
+        {
+          "id": "OpenPlatform",
+          "submodule": "OpenPlatform",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": false
+        },
+        {
+          "id": "OpenPlatform.HttpApi",
+          "submodule": "OpenPlatform",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": false
         }
       ]
     },
