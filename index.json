@@ -3600,7 +3600,7 @@
           "id": "Common.SharedCache.StackExchangeRedis",
           "submodule": "Common.SharedCache.StackExchangeRedis",
           "defaultTargets": [
-            "Domain"
+            "Web"
           ],
           "default": false
         },
