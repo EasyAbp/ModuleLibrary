@@ -1014,6 +1014,39 @@
       ]
     },
     {
+      "id": "EasyAbp.Abp.LoginUi",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/Abp.LoginUi",
+      "category": "Infrastructure",
+      "desc": "An ABP module that provides enhanced login pages.",
+      "tags": [
+        "Infrastructure",
+        "Account",
+        "Login"
+      ],
+      "modules": [
+        {
+          "id": "Blazor",
+          "defaultTargets": [
+            "Blazor"
+          ],
+          "default": true
+        },
+        {
+          "id": "Shared",
+          "defaultTargets": [],
+          "default": false
+        },
+        {
+          "id": "Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        }
+      ]
+    },
+    {
       "id": "EasyAbp.Abp.SettingUi",
       "org": "EasyAbp",
       "repo": "https://github.com/EasyAbp/Abp.SettingUi",
