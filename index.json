@@ -1017,7 +1017,7 @@
       "id": "EasyAbp.Abp.LoginUi",
       "org": "EasyAbp",
       "repo": "https://github.com/EasyAbp/Abp.LoginUi",
-      "category": "Infrastructure",
+      "category": "Account",
       "desc": "An ABP module that provides enhanced login pages.",
       "tags": [
         "Infrastructure",
