@@ -641,6 +641,127 @@
             "Web"
           ],
           "default": true
+        },
+        {
+          "id": "Orders.Booking.Application",
+          "groupId": "EasyAbp.EShop",
+          "submodule": "Orders.Booking",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Payments.Booking.Application",
+          "groupId": "EasyAbp.EShop",
+          "submodule": "Payments.Booking",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Plugins.Baskets.Booking.Application",
+          "groupId": "EasyAbp.EShop",
+          "submodule": "Plugins.Baskets.Booking",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": false
+        }
+      ]
+    },
+    {
+      "id": "EasyAbp.EShop.Plugins.Promotions",
+      "org": "EasyAbp",
+      "repo": "https://github.com/EasyAbp/EShop",
+      "category": "Business",
+      "desc": "An abp application module group that provides basic e-shop service.",
+      "tags": [
+        "Business",
+        "Sale"
+      ],
+      "modules": [
+        {
+          "id": "Application",
+          "defaultTargets": [
+            "Application"
+          ],
+          "default": true
+        },
+        {
+          "id": "Application.Contracts",
+          "defaultTargets": [
+            "Application.Contracts"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "Domain.Shared",
+          "defaultTargets": [
+            "Domain.Shared"
+          ],
+          "default": true
+        },
+        {
+          "id": "EntityFrameworkCore",
+          "defaultTargets": [
+            "EntityFrameworkCore"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi",
+          "defaultTargets": [
+            "HttpApi"
+          ],
+          "default": true
+        },
+        {
+          "id": "HttpApi.Client",
+          "defaultTargets": [
+            "HttpApi.Client"
+          ],
+          "default": true
+        },
+        {
+          "id": "MongoDB",
+          "defaultTargets": [
+            "MongoDB"
+          ],
+          "default": true
+        },
+        {
+          "id": "Web",
+          "defaultTargets": [
+            "Web"
+          ],
+          "default": true
+        },
+        {
+          "id": "Orders.Plugins.Promotions.Domain",
+          "groupId": "EasyAbp.EShop",
+          "submodule": "Orders.Plugins.Promotions",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
+        },
+        {
+          "id": "Products.Plugins.Promotions.Domain",
+          "groupId": "EasyAbp.EShop",
+          "submodule": "Products.Plugins.Promotions",
+          "defaultTargets": [
+            "Domain"
+          ],
+          "default": true
         }
       ]
     },
